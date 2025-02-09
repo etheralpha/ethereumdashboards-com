@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100 bg-blue-dark">
+  {%- include partials/head.html -%}
+  <body class="d-flex flex-column min-vh-100 bg-blue-dark text-light">
+
+  	{%- include partials/nav.html -%}
+
+    {{content}}
+
+  	{%- include partials/footer.html -%}
+    <!-- Bootstrap 5 JS -->
+    {{site.bootstrap_js}}
+    <!-- Custom JS -->
+  	<script src="/assets/js/main.js" type="application/javascript"></script>
+    {%- case page.name -%}
+      {%- when "custom.md" -%}
+        <script src="/assets/js/custom.js" type="application/javascript"></script>
+      {%- else -%}
+    {%- endcase -%}
+  </body>
+</html>

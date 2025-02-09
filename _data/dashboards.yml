@@ -1,0 +1,353 @@
+# SCHEMA
+# - name:         # string; name of site
+#   link:         # string; link to site
+#   description:  # string; short description of site
+#   img:          # string; path of site screenshot; 640px wide compressed webp
+#   categories:   # string; comma separated list of categories, case sensitive
+                  # options: Blobs, Censorship, Defi, Dev, Dune, Ecosystem Health, ETH, Explorer, Gas, L2s, MEV, Miscellaneous, News, Portfolio, RWAs, Scaling, Staking, Wallet
+
+
+# Template to copy for new entries
+# - name: 
+#   link: 
+#   description: 
+#   img: /assets/img/dashboards/
+#   categories: 
+
+
+# Entries shown in random order
+- name: L2 Beat
+  link: https://l2beat.com/
+  description: Analytics and research website about Ethereum layer 2 scaling, comparing major protocols live on Ethereum today.
+  img: /assets/img/dashboards/l2beat.webp
+  categories: L2s
+- name: Grow the Pie
+  link: https://www.growthepie.xyz/
+  description: Ethereum and Layer 2 analytics covering fundamental metrics, economics, blockspace usage, and much more.
+  img: /assets/img/dashboards/growthepie.webp
+  categories: L2s, Scaling, Blobs
+- name: Rated
+  link: https://www.rated.network/?network=mainnet&view=nodeOperator
+  description: A measure of uptime — how available a validator or entity has been to provide network services.
+  img: /assets/img/dashboards/rated.webp
+  categories: Staking
+- name: ETH is Money
+  link: https://www.ethismoney.xyz/
+  description: ETH is money is an tribe of believers who hold, stake, and propagate ETH as money.
+  img: /assets/img/dashboards/ethismoney.webp
+  categories: ETH
+- name: RWA.xyz
+  link: https://app.rwa.xyz/
+  description: RWA.xyz provides analytics on Tokenized Real-World Assets.
+  img: /assets/img/dashboards/rwaxyz.webp
+  categories: RWAs
+- name: Ethereum Adoption
+  link: https://ethereumadoption.com/
+  description: A list of high profile entities building on Ethereum.
+  img: /assets/img/dashboards/ethereumadoption.webp
+  categories: Miscellaneous
+- name: Rollup Codes
+  link: https://www.rollup.codes/
+  description: A comprehensive tool for developers to compare and do in-depth analysis of the expanding Ethereum ecosystem.
+  img: /assets/img/dashboards/rollupcodes.webp
+  categories: L2s, Dev
+- name: Beaconcha.in
+  link: https://beaconcha.in/
+  description: Open source Ethereum Beacon Chain explorer.
+  img: /assets/img/dashboards/beaconchain.webp
+  categories: Explorer, Staking
+- name: L2 Fees
+  link: https://l2fees.info/
+  description: Ethereum Layer-1 is expensive. How much does it cost to use Layer-2?
+  img: /assets/img/dashboards/l2fees.webp
+  categories: L2s, Scaling
+- name: AlphaDay
+  link: https://app.alphaday.com/
+  description: Alphaday is the ultimate crypto dashboard for staying up to date with all things crypto and interacting with your favorite DApps.
+  img: /assets/img/dashboards/alphaday.webp
+  categories: News
+- name: Rotki
+  link: https://rotki.com/
+  description: Rotki is an open source portfolio tracker, accounting and analytics tool that protects your privacy.
+  img: /assets/img/dashboards/rotki.webp
+  categories: Portfolio, Wallet
+- name: Blocknative Explorer
+  link: https://explorer.blocknative.com/
+  description: Realtime mempool monitoring to visualize, capture, and filter enriched pre-chain event data.
+  img: /assets/img/dashboards/blocknative.webp
+  categories: Explorer
+- name: Ethereum Roadmap
+  link: https://ethroadmap.com/
+  description: "Everything you need to know about the Ethereum roadmap: The Merge, Surge, Scourge, Verge, Purge and Splurge."
+  img: /assets/img/dashboards/ethroadmap.webp
+  categories: Miscellaneous
+- name: Project Sunshine
+  link: https://ethsunshine.com/
+  description: A dashboard to measure the health of Ethereum's decentralization.
+  img: /assets/img/dashboards/projectsunshine.webp
+  categories: Ecosystem Health
+- name: Node Watch
+  link: https://nodewatch.io/
+  description: Node statistics including node count, geographic diversity, distribution details, and sync status.
+  img: /assets/img/dashboards/nodewatch.webp
+  categories: Ecosystem Health
+- name: EthSeer
+  link: https://ethseer.io/?network=mainnet
+  description: EthSeer provides information about Beacon Chain blocks being produced in real-time.
+  img: /assets/img/dashboards/ethseer.webp
+  categories: Explorer
+- name: MigaLabs Blobs
+  link: https://monitoreth.io/blobs
+  description: 
+  img: /assets/img/dashboards/migalabsblobs.webp
+  categories: Blobs, Scaling
+- name: MigaLabs CL Nodes
+  link: https://monitoreth.io/nodes
+  description: 
+  img: /assets/img/dashboards/migalabsnodes.webp
+  categories: Ecosystem Health
+- name: Execution Diversity
+  link: https://execution-diversity.info/
+  description: About the supermajority client risk of the execution layer, especially the client usage of staking services and pools.
+  img: /assets/img/dashboards/executiondiversity.webp
+  categories: Ecosystem Health
+- name: Client Diversity
+  link: https://clientdiversity.org/
+  description: Consensus & Execution layer client distribution.
+  img: /assets/img/dashboards/clientdiversity.webp
+  categories: Ecosystem Health
+- name: Rocketscan
+  link: https://rocketscan.io/
+  description: Rocket Pool Liquid Staking explorer.
+  img: /assets/img/dashboards/rocketscan.webp
+  categories: Explorer, Projects
+- name: Hildobby's Staking
+  link: https://dune.com/hildobby/eth2-staking
+  description: This dashboard tracks ETH sent to the Consensus Layer deposit address & beacon chain outflow.
+  img: /assets/img/dashboards/hildobbystaking.webp
+  categories: Staking, Dune
+- name: UltraSound Money
+  link: https://ultrasound.money/
+  description: Ultra sound money is an Ethereum meme focusing on the likely decrease of the ETH supply.
+  img: /assets/img/dashboards/ultrasoundmoney.webp
+  categories: ETH
+- name: Ratio Gang
+  link: https://ratiogang.com/
+  description: Ratio Gang assemble! Monitor the progress of Ethereum (ETH) in overtaking Bitcoin (BTC) by market cap.
+  img: /assets/img/dashboards/ratiogang.webp
+  categories: ETH
+- name: Flippening Watch
+  link: https://buybitcoinworldwide.com/flippening/
+  description: “The Flippening” refers to the possible future event when Ethereum overtakes Bitcoin to become the most valuable cryptocurrency in market cap.
+  img: /assets/img/dashboards/flippeningwatch.webp
+  categories: ETH
+- name: DeFi Llama
+  link: https://defillama.com/
+  description: DefiLlama is the largest TVL aggregator for DeFi (Decentralized Finance).
+  img: /assets/img/dashboards/defillama.webp
+  categories: Defi
+- name: DeFi Toolkit
+  link: https://hackmd.io/@gweicz/defi-toolkit
+  description: Curated list of best tools and resources for user of Ethereum (DeFi) ecosystem.
+  img: /assets/img/dashboards/defitoolkit.webp
+  categories: Defi
+- name: Stablecoins.wtf
+  link: https://stablecoins.wtf
+  description: We accumulate quantitative live-data of major stablecoins in a single dashboard. And we aim to make the data understandable by everyone.
+  img: /assets/img/dashboards/stablecoinswtf.webp
+  categories: RWAs
+- name: Flashbots
+  link: https://transparency.flashbots.net/
+  description: The Flashbots MEV-Boost transparency dashboard is a public dashboard of metrics related to the Flashbots MEV-Boost relay and builder.
+  img: /assets/img/dashboards/flashbots.webp
+  categories: MEV, Block Production
+# - name: MEV Boost.org
+#   link: https://mevboost.pics/
+#   description: MEV-Boost Dashboard you can filter by a certain time frame or hide and show specific relays and builders.
+#   img: /assets/img/dashboards/mevboost.webp
+#   categories: MEV, Block Production, Ecosystem Health
+- name: MEV Watch
+  link: https://mevwatch.info/
+  description: Some MEV-Boost relays are regulated under OFAC and will censor certain transactions. Use this tool to observe the effect it's having on Ethereum blocks.
+  img: /assets/img/dashboards/mevwatch.webp
+  categories: MEV, Block Production, Censorship
+- name: EigenPhi
+  link: https://eigenphi.io/
+  description: EigenPhi is a full-scale DeFi in-depth data platform for everyday DeFi users, Crypto traders & arbitragers.
+  img: /assets/img/dashboards/eigenphi.webp
+  categories: MEV, Block Production
+- name: Inclusion Watch
+  link: https://www.inclusion.watch/
+  description: Inclusion Watch details daily avg OFAC compliant blocks.
+  img: /assets/img/dashboards/inclusionwatch.webp
+  categories: Censorship
+- name: Chainsight Analytics
+  link: https://dune.com/ChainsightAnalytics/mev-after-ethereum-merge
+  description: This dashboard tracks mev-boost blocks with a known pattern in them, representing blocks created by block-builders.
+  img: /assets/img/dashboards/chainsight.webp
+  categories: MEV, Block Production, Dune
+- name: Beaconcha.in Relays
+  link: https://beaconcha.in/relays
+  description: Validators can use Relays to outsource their Block Production to entities specialized in extracting extra revenue.
+  img: /assets/img/dashboards/beaconchainrelays.webp
+  categories: MEV, Block Production
+- name: Jiffyscan
+  link: https://jiffyscan.xyz/?network=mainnet
+  description: User Op explorer for ERC-4337.
+  img: /assets/img/dashboards/jiffyscan.webp
+  categories: Explorer, Wallet
+- name: GasLimit.Pics
+  link: https://gaslimit.pics/
+  description: A report on Gas Limit Signaling with interactive charts.
+  img: /assets/img/dashboards/gaslimitpics.webp
+  categories: Gas, Scaling
+- name: Ethernow
+  link: https://www.ethernow.xyz/
+  description: What's happening on Ethereum right now?
+  img: /assets/img/dashboards/ethernow.webp
+  categories: Miscellaneous
+- name: LlamaFeed
+  link: https://feed.defillama.com/
+  description: A customizable crypto news aggregator.
+  img: /assets/img/dashboards/llamafeed.webp
+  categories: News
+- name: Payload.de
+  link: https://payload.de/data/
+  description: Ethereum block value analytics.
+  img: /assets/img/dashboards/payload.webp
+  categories: MEV, Block Production
+- name: RelayScan.io
+  link: relayscan.io
+  description: Monitoring, analytics & data for Ethereum MEV-Boost builders and relays.
+  img: /assets/img/dashboards/relayscan.webp
+  categories: MEV, Block Production
+# - name: Hildobby's Blobs
+#   link: https://dune.com/hildobby/blobs
+#   description: 
+#   img: /assets/img/dashboards/hildobbyblobs.webp
+#   categories: Blobs, Scaling, Dune
+- name: BlobScan
+  link: https://blobscan.com/
+  description: Blob transaction explorer for EIP-4844.
+  img: /assets/img/dashboards/blobscan.webp
+  categories: Blobs, Scaling, Explorer
+- name: MEV Boost Dashboard
+  link: https://mevboost.pics/
+  description: Selected comparative visualizations on MEV-Boost and Proposer Builder Separation on Ethereum.
+  img: /assets/img/dashboards/mevboostpics.webp
+  categories: MEV, Block Production
+- name: Ethereum Timing Dashboard
+  link: https://timing.pics/
+  description: Selected comparative visualizations on block proposal timings and missed slots on Ethereum.
+  img: /assets/img/dashboards/timingpics.webp
+  categories: MEV, Block Production, Staking
+- name: Ethereum Mempool Dashboard
+  link: https://mempool.pics/
+  description: Selected comparative visualizations on Ethereum's mempool.
+  img: /assets/img/dashboards/mempoolpics.webp
+  categories: Censorship, MEV
+- name: Ethereum Censorship Dashboard
+  link: https://censorship.pics/
+  description: Selected comparative visualizations on censorship on Ethereum.
+  img: /assets/img/dashboards/censorshippics.webp
+  categories: Censorship
+- name: Ethereum Reorg Dashboard
+  link: https://reorg.pics/
+  description: Selected comparative visualizations on reorged blocks on Ethereum.
+  img: /assets/img/dashboards/reorgpics.webp
+  categories: Block Production
+- name: Blob Simulator
+  link: https://ethereum-blob-simulator.netlify.app/
+  description: Simulate changes in blob count, rollup count, and TPS to estimate blob usage.
+  img: /assets/img/dashboards/blobsimulator.webp
+  categories: Blobs, Scaling
+- name: WalletBeat.fyi
+  link: https://www.walletbeat.fyi/
+  description: An open repository of EVM-compatible wallets.
+  img: /assets/img/dashboards/walletbeatfyi.webp
+  categories: Wallet
+- name: WalletBeat.eth
+  link: https://beta.walletbeat.eth.limo/
+  description: An Ethereum wallet rating site providing a trustworthy, up-to-date source of information about the state of the wallet ecosystem.
+  img: /assets/img/dashboards/walletbeateth.webp
+  categories: Wallet
+- name: Staking Directory
+  link: https://www.staking.directory/
+  description: A community-maintained directory of Ethereum staking providers.
+  img: /assets/img/dashboards/stakingdirectory.webp
+  categories: Staking
+- name: libMEV
+  link: https://libmev.com/
+  description: Powerful MEV Explorer Designed for Searchers by Searchers.
+  img: /assets/img/dashboards/libmev.webp
+  categories: MEV, Block Production
+- name: Vaults.fyi
+  link: https://www.vaults.fyi/vaults
+  description: Find the best onchain yield across DeFi platforms. Best APY crypto.
+  img: /assets/img/dashboards/vaultsfyi.webp
+  categories: Defi
+- name: Money Movers
+  link: https://money-movers.info/
+  description: Which blockchain is settling more value?
+  img: /assets/img/dashboards/moneymovers.webp
+  categories: Miscellaneous
+- name: Restaking.info
+  link: https://restaking.info/
+  description: Your home for all things restaking.
+  img: /assets/img/dashboards/restakinginfo.webp
+  categories: Staking
+- name: 0xRob Blobs
+  link: https://dune.com/0xRob/blobs
+  description: Blob usage, fees, and submitter stats.
+  img: /assets/img/dashboards/0xrobblobs.webp
+  categories: Blobs, Scaling, Dune
+- name: Rollup.wtf
+  link: https://rollup.wtf/
+  description: Real-time rollups performance.
+  img: /assets/img/dashboards/rollupwtf.webp
+  categories: Scaling, L2s
+- name: Validator Queue
+  link: https://www.validatorqueue.com/
+  description: A dashboard showing the Ethereum validator enter and exit queue and estimated wait times.
+  img: /assets/img/dashboards/validatorqueue.webp
+  categories: Staking
+- name: Nansen
+  link: https://app.nansen.ai/
+  description: Maximize your crypto, DeFi, and NFT returns with Nansen's real-time analytics tools. Get onchain insights and data to power your investment decisions.
+  img: /assets/img/dashboards/nansen.webp
+  categories: Defi
+- name: Ulisse Network Topology
+  link: https://chainbound.grafana.net/public-dashboards/d001850804e1454fa24852c9dd82db97
+  description: Visualize geographical distribution of active Ethereum nodes across the world.
+  img: /assets/img/dashboards/ulisse.webp
+  categories: Ecosystem Health
+- name: CoinGlass ETF Flows
+  link: https://www.coinglass.com/eth-etf
+  description: A comprehensive tracker and overview to monitor Ethereum ETF inflows, outflows, and volume.
+  img: /assets/img/dashboards/coinglassetfs.webp
+  categories: ETH
+- name: EthTools
+  link: https://ethtools.com/
+  description: Ethereum Tools for users and developers to aid in deploying (and interacting with) smart contracts.
+  img: /assets/img/dashboards/ethtools.webp
+  categories: Dev
+- name: Energy Consumption Index
+  link: https://digiconomist.net/ethereum-energy-consumption
+  description: The Ethereum Energy Consumption Index provides the latest estimate of the total energy consumption of the Ethereum network.
+  img: /assets/img/dashboards/energyindex.webp
+  categories: Miscellaneous
+- name: DappRadar
+  link: https://dappradar.com/
+  description: Track your portfolio and discover fast-growing dapps and trending tokens.
+  img: /assets/img/dashboards/dappradar.webp
+  categories: Defi, Portfolio
+- name: Orderflow.art
+  link: https://orderflow.art/
+  description: Illuminating Ethereum's order flow landscape with tools to visualize power and profit in the MEV supply network.
+  img: /assets/img/dashboards/orderflowart.webp
+  categories: Block Production, MEV
+
+
+
+
+

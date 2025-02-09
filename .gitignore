@@ -1,0 +1,14 @@
+*~
+_scripts/.env
+**/.env
+__pycache__
+_scripts/__pycache__
+**/__pycache__
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+.DS_Store
+*.DS_Store
+**/.DS_Store
