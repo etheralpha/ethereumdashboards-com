@@ -4,7 +4,7 @@
 #   description:  # string; short description of site
 #   img:          # string; path of site screenshot; 640px wide compressed webp
 #   categories:   # string; comma separated list of categories, case sensitive
-                  # options: Blobs, Censorship, Defi, Dev, Dune, Ecosystem Health, ETH, Explorer, Gas, L2s, MEV, Miscellaneous, News, Portfolio, RWAs, Scaling, Staking, Wallet
+                  # options: Blobs, Censorship, Defi, Dev, Directory, Dune, Ecosystem Health, ETH, Explorer, Fees, L2s, MEV, Miscellaneous, News, Portfolio, Project Specific, RWAs, Scaling, Staking, Wallet
 
 
 # Template to copy for new entries
@@ -16,6 +16,81 @@
 
 
 # Entries shown in random order
+- name: Forky
+  link: https://github.com/ethpandaops/forky?tab=readme-ov-file#-forky-
+  description: Forky captures, stores and visualizes live fork choice data from the Ethereum network.
+  img: /assets/img/dashboards/forky.webp
+  categories: Dev, Explorer
+- name: Dora the Beaconchain Explorer
+  link: https://github.com/ethpandaops/dora?tab=readme-ov-file#testnet-instances
+  description: An open source lightweight explorer to view and interact with the data on the Ethereum Beacon Chain.
+  img: /assets/img/dashboards/dora.webp
+  categories: Dev, Explorer
+- name: Ethereum Growth
+  link: https://tokenterminal.com/explorer/studio/dashboards/cf4f2010-c412-4bc7-b5ab-76dd866828e6
+  description: Key metrics for the L1 and the leading L2s.
+  img: /assets/img/dashboards/tokenterminalgrowth.webp
+  categories: Scaling, L2s, Fees
+- name: Ethereum L1 GDP
+  link: https://tokenterminal.com/explorer/studio/dashboards/6b657b86-b89f-4851-a3cb-a315a866efb1
+  description: A measurement of how much end users paid to interact with the chain's applications.
+  img: /assets/img/dashboards/tokenterminalgdp.webp
+  categories: Fees
+- name: Builder Love
+  link: https://www.builder.love/
+  description: A look into Ethereum's development stats.
+  img: /assets/img/dashboards/builderlove.webp
+  categories: Dev
+- name: Kiwi News
+  link: https://news.kiwistand.com/
+  description: A handpicked news feed for hacker engineers building a decentralized future.
+  img: /assets/img/dashboards/kiwistand.webp
+  categories: News
+- name: Blockscout
+  link: https://chains.blockscout.com/
+  description: Open-source block explorer to view transactions, verify contracts, and analyze onchain data across Ethereum, L2s, and all EVM networks.
+  img: /assets/img/dashboards/blockscout.webp
+  categories: Explorer
+- name: Liquity Bolder Cash
+  link: https://bolder.cash/
+  description: Data on the Liquity Bold stablecoin and related forks.
+  img: /assets/img/dashboards/boldercash.webp
+  categories: Defi, Project Specific
+- name: Open Source Observer
+  link: https://www.opensource.observer/
+  description: A free analytics suite that helps funders measure the impact of open source software contributions to the health of their ecosystem.
+  img: /assets/img/dashboards/opensourceobserver.webp
+  categories: Dev
+- name: Ethereum Ecosystem
+  link: https://www.ethereum-ecosystem.com/
+  description: Explore the Ethereum ecosystem and discover 1000+ dApps, tools, and services across Ethereum and its Layer 2s.
+  img: /assets/img/dashboards/
+  categories: Defi, Directory
+- name: Transaction City
+  link: https://txcity.io/v/eth-btc
+  description: 
+  img: /assets/img/dashboards/txcity.webp
+  categories: Fees
+- name: Blocknative Fees Estimator
+  link: https://www.blocknative.com/Fees-estimator
+  description: Accurate Fees fee prediction to help getting into the next block without overpaying.
+  img: /assets/img/dashboards/blocknativegas.webp
+  categories: Fees
+- name: Ethereum Signature Database
+  link: https://www.4byte.directory/
+  description: A database of Ethereum smart contract function signatures, helping developers understand their purpose.
+  img: /assets/img/dashboards/4byte.webp
+  categories: Dev, Directory
+- name: GeographicDiversity.org
+  link: https://geographicdiversity.org/
+  description: Explore geographic staking decentralization in Ethereum.
+  img: /assets/img/dashboards/geographicdiversity.webp
+  categories: Ecosystem Health
+- name: Etherealize Dashboard
+  link: https://dashboard.etherealize.io/
+  description: A snapshot of the Ethereum economy.
+  img: /assets/img/dashboards/etherealize.webp
+  categories: ETH
 - name: L2 Beat
   link: https://l2beat.com/
   description: Analytics and research website about Ethereum layer 2 scaling, comparing major protocols live on Ethereum today.
@@ -74,13 +149,13 @@
 - name: Blocknative Explorer
   link: https://explorer.blocknative.com/
   description: Realtime mempool monitoring to visualize, capture, and filter enriched pre-chain event data.
-  img: /assets/img/dashboards/blocknative.webp
+  img: /assets/img/dashboards/blocknativeexplorer.webp
   categories: Explorer
 - name: Ethereum Roadmap
   link: https://ethroadmap.com/
   description: "Everything you need to know about the Ethereum roadmap: The Merge, Surge, Scourge, Verge, Purge and Splurge."
   img: /assets/img/dashboards/ethroadmap.webp
-  categories: Miscellaneous
+  categories: Dev
 - name: Project Sunshine
   link: https://ethsunshine.com/
   description: A dashboard to measure the health of Ethereum's decentralization.
@@ -111,16 +186,16 @@
   description: About the supermajority client risk of the execution layer, especially the client usage of staking services and pools.
   img: /assets/img/dashboards/executiondiversity.webp
   categories: Ecosystem Health
-- name: Client Diversity
+- name: ClientDiversity.org
   link: https://clientdiversity.org/
   description: Consensus & Execution layer client distribution.
   img: /assets/img/dashboards/clientdiversity.webp
   categories: Ecosystem Health
-- name: Rocketscan
+- name: Rocket Pool Rocketscan
   link: https://rocketscan.io/
-  description: Rocket Pool Liquid Staking explorer.
+  description: Rocket Pool explorer for all things rETH and RPL.
   img: /assets/img/dashboards/rocketscan.webp
-  categories: Explorer, Projects
+  categories: Explorer, Project Specific
 - name: Hildobby's Staking
   link: https://dune.com/hildobby/eth2-staking
   description: This dashboard tracks ETH sent to the Consensus Layer deposit address & beacon chain outflow.
@@ -200,7 +275,7 @@
   link: https://gaslimit.pics/
   description: A report on Gas Limit Signaling with interactive charts.
   img: /assets/img/dashboards/gaslimitpics.webp
-  categories: Gas, Scaling
+  categories: Scaling
 - name: Ethernow
   link: https://www.ethernow.xyz/
   description: What's happening on Ethereum right now?
@@ -221,11 +296,11 @@
   description: Monitoring, analytics & data for Ethereum MEV-Boost builders and relays.
   img: /assets/img/dashboards/relayscan.webp
   categories: MEV, Block Production
-# - name: Hildobby's Blobs
-#   link: https://dune.com/hildobby/blobs
-#   description: 
-#   img: /assets/img/dashboards/hildobbyblobs.webp
-#   categories: Blobs, Scaling, Dune
+- name: Hildobby's Blobs
+  link: https://dune.com/hildobby/blobs
+  description: This dashboard tracks blobs posted on Ethereum's Beacon Chain.
+  img: /assets/img/dashboards/hildobbyblobs.webp
+  categories: Blobs, Scaling, Dune
 - name: BlobScan
   link: https://blobscan.com/
   description: Blob transaction explorer for EIP-4844.
@@ -275,7 +350,7 @@
   link: https://www.staking.directory/
   description: A community-maintained directory of Ethereum staking providers.
   img: /assets/img/dashboards/stakingdirectory.webp
-  categories: Staking
+  categories: Staking, Directory
 - name: libMEV
   link: https://libmev.com/
   description: Powerful MEV Explorer Designed for Searchers by Searchers.
@@ -330,7 +405,7 @@
   link: https://ethtools.com/
   description: Ethereum Tools for users and developers to aid in deploying (and interacting with) smart contracts.
   img: /assets/img/dashboards/ethtools.webp
-  categories: Dev
+  categories: Dev, Directory
 - name: Energy Consumption Index
   link: https://digiconomist.net/ethereum-energy-consumption
   description: The Ethereum Energy Consumption Index provides the latest estimate of the total energy consumption of the Ethereum network.
@@ -340,7 +415,7 @@
   link: https://dappradar.com/
   description: Track your portfolio and discover fast-growing dapps and trending tokens.
   img: /assets/img/dashboards/dappradar.webp
-  categories: Defi, Portfolio
+  categories: Defi, Portfolio, Directory
 - name: Orderflow.art
   link: https://orderflow.art/
   description: Illuminating Ethereum's order flow landscape with tools to visualize power and profit in the MEV supply network.

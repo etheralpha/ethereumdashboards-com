@@ -5,9 +5,6 @@
 #   input = array to shuffle
 #   {{ site.data.people | shuffle }}
 
-
-require 'digest/md5'
-
 module Shuffle
   def shuffle(input)
     input.shuffle

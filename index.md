@@ -3,6 +3,10 @@ layout: default
 ---
 
 
+{%- comment -%}
+  {{". \_scripts/bin/activate && python \_scripts/convert_images.py" | shell}}
+{%- endcomment -%}
+
 {%- include partials/header.html -%}
 
 
@@ -53,7 +57,11 @@ layout: default
                   style="aspect-ratio: 16 / 9; object-position: 0% 0%;">
               </a>
               <div class="card-body d-flex align-items-start flex-column p-0 pt-3">
-                <div class="text-light fw-bold" style="opacity: 95%;">{{dashboard.name}}</div>
+                <!-- <div class="text-light fw-bold" style="opacity: 95%;"> -->
+                  <a href="{{dashboard.link}}" target="_blank" class="text-light fw-bold" style="opacity: 95%;">
+                    {{dashboard.name}}
+                  </a>
+                <!-- </div> -->
                 <div class="card-text mb-auto">
                   {%- if dashboard.description -%}
                     <p>
