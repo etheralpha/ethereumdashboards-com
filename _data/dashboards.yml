@@ -101,7 +101,7 @@
   description: A snapshot of the Ethereum economy.
   img: /assets/img/dashboards/etherealize.webp
   categories: ETH
-- name: L2 Beat
+- name: L2BEAT
   link: https://l2beat.com/
   description: Analytics and research website about Ethereum layer 2 scaling, comparing major protocols live on Ethereum today.
   img: /assets/img/dashboards/l2beat.webp
