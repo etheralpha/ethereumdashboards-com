@@ -74,7 +74,7 @@
 - name: Ethereum Ecosystem
   link: https://www.ethereum-ecosystem.com/
   description: Explore the Ethereum ecosystem and discover 1000+ dApps, tools, and services across Ethereum and its Layer 2s.
-  img: /assets/img/dashboards/
+  img: /assets/img/dashboards/ethereumecosystem.webp
   categories: Defi, Directory
 - name: Transaction City
   link: https://txcity.io/v/eth-btc
