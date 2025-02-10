@@ -16,15 +16,20 @@
 
 
 # Entries shown in random order
+- name: EthPandaOps Lab
+  link: https://lab.ethpandaops.io/
+  description: Experimental platform for exploring Ethereum data and network statistics.
+  img: /assets/img/dashboards/ethpandaopslab.webp
+  categories: Ecosystem Health, Block Production, Staking
 - name: Forky
   link: https://github.com/ethpandaops/forky?tab=readme-ov-file#-forky-
   description: Forky captures, stores and visualizes live fork choice data from the Ethereum network.
-  img: /assets/img/dashboards/forky.webp
+  img: /assets/img/dashboards/ethpandaopsforky.webp
   categories: Dev, Explorer
 - name: Dora the Beaconchain Explorer
   link: https://github.com/ethpandaops/dora?tab=readme-ov-file#testnet-instances
   description: An open source lightweight explorer to view and interact with the data on the Ethereum Beacon Chain.
-  img: /assets/img/dashboards/dora.webp
+  img: /assets/img/dashboards/ethpandaopsdora.webp
   categories: Dev, Explorer
 - name: Ethereum Growth
   link: https://tokenterminal.com/explorer/studio/dashboards/cf4f2010-c412-4bc7-b5ab-76dd866828e6
@@ -236,11 +241,11 @@
   description: The Flashbots MEV-Boost transparency dashboard is a public dashboard of metrics related to the Flashbots MEV-Boost relay and builder.
   img: /assets/img/dashboards/flashbots.webp
   categories: MEV, Block Production
-# - name: MEV Boost.org
-#   link: https://mevboost.pics/
-#   description: MEV-Boost Dashboard you can filter by a certain time frame or hide and show specific relays and builders.
-#   img: /assets/img/dashboards/mevboost.webp
-#   categories: MEV, Block Production, Ecosystem Health
+- name: MEV Boost.org
+  link: https://mevboost.pics/
+  description: MEV-Boost Dashboard you can filter by a certain time frame or hide and show specific relays and builders.
+  img: /assets/img/dashboards/mevboost.webp
+  categories: MEV, Block Production, Ecosystem Health
 - name: MEV Watch
   link: https://mevwatch.info/
   description: Some MEV-Boost relays are regulated under OFAC and will censor certain transactions. Use this tool to observe the effect it's having on Ethereum blocks.
