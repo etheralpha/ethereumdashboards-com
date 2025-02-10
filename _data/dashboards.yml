@@ -16,6 +16,11 @@
 
 
 # Entries shown in random order
+- name: Ethernets
+  link: https://www.ethernets.io/
+  description: Ethereum node diversity stats.
+  img: /assets/img/dashboards/ethernets.webp
+  categories: Ecosystem Health
 - name: EthPandaOps Lab
   link: https://lab.ethpandaops.io/
   description: Experimental platform for exploring Ethereum data and network statistics.
