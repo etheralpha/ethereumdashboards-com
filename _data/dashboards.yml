@@ -106,7 +106,7 @@
   description: Analytics and research website about Ethereum layer 2 scaling, comparing major protocols live on Ethereum today.
   img: /assets/img/dashboards/l2beat.webp
   categories: L2s
-- name: Grow the Pie
+- name: growthepie
   link: https://www.growthepie.xyz/
   description: Ethereum and Layer 2 analytics covering fundamental metrics, economics, blockspace usage, and much more.
   img: /assets/img/dashboards/growthepie.webp
