@@ -16,6 +16,11 @@
 
 
 # Entries shown in random order
+- name: Ethereum IPv6 Support
+  link: https://ipv6eth.info/
+  description: The current state of IPv6 support within the Ethereum network, why we should improve it, and how we can do it.
+  img: /assets/img/dashboards/ipv6eth.webp
+  categories: Ecosystem Health
 - name: Ethereum Obituaries 
   link: https://ethereumobituaries.com/ 
   description: A list and chart of all the times Ethereum was declared dead.  
