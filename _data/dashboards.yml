@@ -16,6 +16,11 @@
 
 
 # Entries shown in random order
+- name: Ethereum Obituaries 
+  link: https://ethereumobituaries.com/ 
+  description: A list and chart of all the times Ethereum was declared dead.  
+  img: /assets/img/dashboards/ethereumobituaries.webp 
+  categories: Miscellaneous
 - name: Ethernets
   link: https://www.ethernets.io/
   description: Ethereum node diversity stats.
