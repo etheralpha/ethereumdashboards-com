@@ -223,7 +223,7 @@
   categories: ETH
 - name: Flippening Watch
   link: https://buybitcoinworldwide.com/flippening/
-  description: “The Flippening” refers to the possible future event when Ethereum overtakes Bitcoin to become the most valuable cryptocurrency in market cap.
+  description: Monitor “The Flippening”, a possible future event when Ethereum overtakes Bitcoin as the most valuable crypto in market cap.
   img: /assets/img/dashboards/flippeningwatch.webp
   categories: ETH
 - name: DeFi Llama
@@ -433,7 +433,7 @@
   categories: Block Production, MEV
 - name: EthProofs
   link: https://ethproofs.org/
-  description: SNARKs that scale Ethereum
+  description: SNARKs that scale Ethereum.
   img: /assets/img/dashboards/ethproofs.webp
   categories: Scaling
   
