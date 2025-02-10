@@ -35,7 +35,7 @@ layout: default
     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-3 justify-content-center">
       {%- comment -%}
         <!-- 
-        - name: L2 Beat
+        - name: L2BEAT
           link: https://l2beat.com/
           description: Analytics and research website about Ethereum layer 2 scaling, comparing major protocols live on Ethereum today.
           img: /assets/img/dashboards/l2beat.webp
