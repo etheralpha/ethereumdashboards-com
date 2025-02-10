@@ -88,7 +88,7 @@
   categories: Defi, Directory
 - name: Transaction City
   link: https://txcity.io/v/eth-btc
-  description: 
+  description: Live Ethereum transaction visualizer with every tx as a person filling up buses which represent blocks.
   img: /assets/img/dashboards/txcity.webp
   categories: Fees
 - name: Blocknative Fees Estimator
