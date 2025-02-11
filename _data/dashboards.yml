@@ -16,6 +16,11 @@
 
 
 # Entries shown in random order
+- name: Web3Privacy Now Explorer
+  link: https://explorer.web3privacy.info
+  description: 3 in 1 - a ranking system, database & comprehensive profiling to empower the general public in discerning the privacy levels, security, and reliability of Web3 projects.
+  img: /assets/img/dashboards/w3pn-explorer-dashboard.webp
+  categories: Defi, Dev, Directory, Miscellaneous, Wallet
 - name: ScrollStats
   link: https://www.scrollstats.com/
   description: A dashboard tracking the activity and adoption metrics of Scroll users.
