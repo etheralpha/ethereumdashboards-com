@@ -16,6 +16,11 @@
 
 
 # Entries shown in random order
+- name: EIPs Insight
+  link: https://eipsinsight.com/resources
+  description: Analytics and tools to provide insight into EIPs.
+  img: /assets/img/dashboards/eipsinsight.webp
+  categories: Dev
 - name: L2Safety
   link: https://l2safety.info/
   description: A simplified view of Ethereum Layer 2 risks sourced form L2BEAT.
