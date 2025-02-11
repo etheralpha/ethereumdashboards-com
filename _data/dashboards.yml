@@ -4,7 +4,7 @@
 #   description:  # string; short description of site
 #   img:          # string; path of site screenshot; 640px wide compressed webp
 #   categories:   # string; comma separated list of categories, case sensitive
-                  # options: Blobs, Censorship, Defi, Dev, Directory, Dune, Ecosystem Health, ETH, Explorer, Fees, L2s, MEV, Miscellaneous, News, Portfolio, Project Specific, RWAs, Scaling, Staking, Wallet
+                  # options: Blobs, Censorship, Defi, Dev, Directory, Dune, Ecosystem Health, ETH, Explorer, Fees, L2s, MEV, Miscellaneous, News, Portfolio, Project Specific, RWAs, Scaling, Security, Staking, Wallet
 
 
 # Template to copy for new entries
@@ -16,11 +16,11 @@
 
 
 # Entries shown in random order
-- name: Web3Privacy Now Explorer
+- name: Web3Privacy
   link: https://explorer.web3privacy.info
-  description: 3 in 1 - a ranking system, database & comprehensive profiling to empower the general public in discerning the privacy levels, security, and reliability of Web3 projects.
-  img: /assets/img/dashboards/w3pn-explorer-dashboard.webp
-  categories: Defi, Dev, Directory, Miscellaneous, Wallet
+  description: A 3 in 1 ranking system, database & comprehensive profiling to empower the general public in discerning the privacy levels, security, and reliability of Web3 projects.
+  img: /assets/img/dashboards/web3privacy.webp
+  categories: Security, Wallet, Defi
 - name: ScrollStats
   link: https://www.scrollstats.com/
   description: A dashboard tracking the activity and adoption metrics of Scroll users.
@@ -135,7 +135,7 @@
   link: https://l2beat.com/
   description: Analytics and research website about Ethereum layer 2 scaling, comparing major protocols live on Ethereum today.
   img: /assets/img/dashboards/l2beat.webp
-  categories: L2s
+  categories: L2s, Security
 - name: growthepie
   link: https://www.growthepie.xyz/
   description: Ethereum and Layer 2 analytics covering fundamental metrics, economics, blockspace usage, and much more.
@@ -380,12 +380,12 @@
   link: https://www.walletbeat.fyi/
   description: An open repository of EVM-compatible wallets.
   img: /assets/img/dashboards/walletbeatfyi.webp
-  categories: Wallet
+  categories: Wallet, Security
 - name: WalletBeat.eth
   link: https://beta.walletbeat.eth.limo/
   description: An Ethereum wallet rating site providing a trustworthy, up-to-date source of information about the state of the wallet ecosystem.
   img: /assets/img/dashboards/walletbeateth.webp
-  categories: Wallet
+  categories: Wallet, Security
 - name: Staking Directory
   link: https://www.staking.directory/
   description: A community-maintained directory of Ethereum staking providers.
