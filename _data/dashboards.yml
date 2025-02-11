@@ -16,6 +16,11 @@
 
 
 # Entries shown in random order
+- name: L2Safety
+  link: https://l2safety.info/
+  description: A simplified view of Ethereum Layer 2 risks sourced form L2BEAT.
+  img: /assets/img/dashboards/l2safety.webp
+  categories: L2s, Security
 - name: Web3Privacy
   link: https://explorer.web3privacy.info
   description: A 3 in 1 ranking system, database & comprehensive profiling to empower the general public in discerning the privacy levels, security, and reliability of Web3 projects.
