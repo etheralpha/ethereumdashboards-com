@@ -35,8 +35,12 @@ To add a new entry, add it to `_data/dashboards.yml` using the template provided
 
 In `_scripts` there's a python script to convert PNG/JPG/JPEG screenshots to a compressed WEBP:
 1. Place screenshots within `assets/img/dashboards/_originals-new`
-1. Start python virtual environment): `. _scripts/bin/activate`
+1. Create virtual environment: `python3 -m venv _scripts/`
+1. Start python virtual environment: `. _scripts/bin/activate`
+1. Install dependencies: `pip install -r _scripts/requirements.txt`
 1. Run the script: `python _scripts/convert_images.py`
+1. Close virtual environment: `deactivate`
+1. Or run the last 3 steps in one command: `. _scripts/bin/activate && python _scripts/convert_images.py && deactivate`
 
 This will resize the image, convert it to a WEBP, compressed it, place the result in `assets/img/dashboards/` and move the original image to `assets/img/dashboards/_originals`.
 
