@@ -16,6 +16,11 @@
 
 
 # Entries shown in random order
+- name: BundleBear
+  link: https://www.bundlebear.com/overview/all
+  description: A dashboard tracking the adoption of ERC-4337 smart accounts.
+  img: /assets/img/dashboards/bundlebear.webp
+  categories: Wallet
 - name: Ethereum IPv6 Support
   link: https://ipv6eth.info/
   description: The current state of IPv6 support within the Ethereum network, why we should improve it, and how we can do it.
