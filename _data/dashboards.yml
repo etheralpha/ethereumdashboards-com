@@ -16,6 +16,11 @@
 
 
 # Entries shown in random order
+- name: ScrollStats
+  link: https://www.scrollstats.com/
+  description: A dashboard tracking the activity and adoption metrics of Scroll users.
+  img: /assets/img/dashboards/scrollstats.webp
+  categories: Project Specific
 - name: GasFees.io 
   link: https://www.gasfees.io/
   description: The cost of swap and transfers across L2s.
