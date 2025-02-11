@@ -16,6 +16,11 @@
 
 
 # Entries shown in random order
+- name: GasFees.io 
+  link: https://www.gasfees.io/
+  description: The cost of swap and transfers across L2s.
+  img: /assets/img/dashboards/gasfeesio.webp
+  categories: Fees, L2s, Scaling
 - name: BundleBear
   link: https://www.bundlebear.com/overview/all
   description: A dashboard tracking the adoption of ERC-4337 smart accounts.
@@ -160,7 +165,7 @@
   link: https://l2fees.info/
   description: Ethereum Layer-1 is expensive. How much does it cost to use Layer-2?
   img: /assets/img/dashboards/l2fees.webp
-  categories: L2s, Scaling
+  categories: Fees, L2s, Scaling
 - name: AlphaDay
   link: https://app.alphaday.com/
   description: Alphaday is the ultimate crypto dashboard for staying up to date with all things crypto and interacting with your favorite DApps.
