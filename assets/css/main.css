@@ -160,11 +160,29 @@ input::placeholder {
 }
 
 
-
-
-
-
-
+.new .card {
+  border: 1px solid #19a4c7;
+}
+.recommended .card {
+  /*border: 1px solid #ffd70082;*/
+  border: 1px solid #d5b41e;
+}
+.badge-new {
+  margin-top: -26px;
+  margin-bottom: 7px;
+  font-size: 0.7rem;
+  background-color: #19a4c7 !important;
+  /*background-color: var(--brand-blue);*/
+  /*border: 1.5px solid #19a4c7;*/
+}
+.badge-recommended {
+  margin-top: -26px;
+  margin-bottom: 7px;
+  font-size: 0.7rem;
+  /*background-color: gold !important;*/
+  /*background-color: #ffd70082 !important;*/
+  background-color: #d5b41e !important;
+}
 
 
 

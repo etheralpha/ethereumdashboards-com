@@ -3,6 +3,7 @@
 #   link:         # string; link to site
 #   description:  # string; short description of site
 #   img:          # string; path of site screenshot; 640px wide compressed webp
+#   recommended:  # boolean; true/false; curated set of recommended dashboards
 #   categories:   # string; comma separated list of categories, case sensitive
                   # options: Blobs, Censorship, Defi, Dev, Directory, Dune, Ecosystem Health, ETH, Explorer, Fees, L2s, MEV, Miscellaneous, News, Portfolio, Project Specific, RWAs, Scaling, Security, Staking, Wallet
 
@@ -16,6 +17,7 @@
 
 
 # Entries shown in random order
+# Add new entries to the top
 - name: EIPs Insight
   link: https://eipsinsight.com/resources
   description: Analytics and tools to provide insight into EIPs.
@@ -56,6 +58,11 @@
   description: A list and chart of all the times Ethereum was declared dead.  
   img: /assets/img/dashboards/ethereumobituaries.webp 
   categories: Miscellaneous
+- name: EthProofs
+  link: https://ethproofs.org/
+  description: SNARKs that scale Ethereum.
+  img: /assets/img/dashboards/ethproofs.webp
+  categories: Scaling
 - name: Ethernets
   link: https://www.ethernets.io/
   description: Ethereum node diversity stats.
@@ -146,41 +153,49 @@
   description: Analytics and research website about Ethereum layer 2 scaling, comparing major protocols live on Ethereum today.
   img: /assets/img/dashboards/l2beat.webp
   categories: L2s, Security
+  recommended: true
 - name: growthepie
   link: https://www.growthepie.xyz/
   description: Ethereum and Layer 2 analytics covering fundamental metrics, economics, blockspace usage, and much more.
   img: /assets/img/dashboards/growthepie.webp
   categories: L2s, Scaling, Blobs
+  recommended: true
 - name: Rated
   link: https://www.rated.network/?network=mainnet&view=nodeOperator
   description: A measure of uptime — how available a validator or entity has been to provide network services.
   img: /assets/img/dashboards/rated.webp
   categories: Staking
+  recommended: true
 - name: ETH is Money
   link: https://www.ethismoney.xyz/
   description: ETH is money is an tribe of believers who hold, stake, and propagate ETH as money.
   img: /assets/img/dashboards/ethismoney.webp
   categories: ETH
+  recommended: true
 - name: RWA.xyz
   link: https://app.rwa.xyz/
   description: RWA.xyz provides analytics on Tokenized Real-World Assets.
   img: /assets/img/dashboards/rwaxyz.webp
   categories: RWAs
+  recommended: true
 - name: Ethereum Adoption
   link: https://ethereumadoption.com/
   description: A list of high profile entities building on Ethereum.
   img: /assets/img/dashboards/ethereumadoption.webp
   categories: Miscellaneous
+  recommended: true
 - name: Rollup Codes
   link: https://www.rollup.codes/
   description: A comprehensive tool for developers to compare and do in-depth analysis of the expanding Ethereum ecosystem.
   img: /assets/img/dashboards/rollupcodes.webp
   categories: L2s, Dev
+  recommended: true
 - name: Beaconcha.in
   link: https://beaconcha.in/
   description: Open source Ethereum Beacon Chain explorer.
   img: /assets/img/dashboards/beaconchain.webp
   categories: Explorer, Staking
+  recommended: true
 - name: L2 Fees
   link: https://l2fees.info/
   description: Ethereum Layer-1 is expensive. How much does it cost to use Layer-2?
@@ -256,6 +271,7 @@
   description: Ultra sound money is an Ethereum meme focusing on the likely decrease of the ETH supply.
   img: /assets/img/dashboards/ultrasoundmoney.webp
   categories: ETH
+  recommended: true
 - name: Ratio Gang
   link: https://ratiogang.com/
   description: Ratio Gang assemble! Monitor the progress of Ethereum (ETH) in overtaking Bitcoin (BTC) by market cap.
@@ -266,11 +282,12 @@
   description: Monitor “The Flippening”, a possible future event when Ethereum overtakes Bitcoin as the most valuable crypto in market cap.
   img: /assets/img/dashboards/flippeningwatch.webp
   categories: ETH
-- name: DeFi Llama
+- name: DeFiLlama
   link: https://defillama.com/
   description: DefiLlama is the largest TVL aggregator for DeFi (Decentralized Finance).
   img: /assets/img/dashboards/defillama.webp
   categories: Defi
+  recommended: true
 - name: DeFi Toolkit
   link: https://hackmd.io/@gweicz/defi-toolkit
   description: Curated list of best tools and resources for user of Ethereum (DeFi) ecosystem.
@@ -471,11 +488,6 @@
   description: Illuminating Ethereum's order flow landscape with tools to visualize power and profit in the MEV supply network.
   img: /assets/img/dashboards/orderflowart.webp
   categories: Block Production, MEV
-- name: EthProofs
-  link: https://ethproofs.org/
-  description: SNARKs that scale Ethereum.
-  img: /assets/img/dashboards/ethproofs.webp
-  categories: Scaling
   
   
 

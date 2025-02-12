@@ -10,6 +10,14 @@ layout: default
 {%- include partials/header.html -%}
 
 
+{%- assign newly_added = "" -%}
+{%- assign newly_added_limit = 5 -%}
+{%- for dashboard in site.data.dashboards limit:newly_added_limit -%}
+  {%- assign newly_added = newly_added | append: dashboard.link | append: ", " -%}
+{%- endfor -%}
+
+
+
 {%- assign categories = '' -%}
 {%- for dashboard in site.data.dashboards -%}
   {%- assign categories = categories | append: dashboard.categories | append: ',' -%}
@@ -19,6 +27,8 @@ layout: default
 <select id="categorySelect" class="form-select mx-auto mb-2 bg-blue" aria-label="select category" style="max-width: 18rem;">
   <option selected disabled value="all">Filter by category</option>
   <option value="all">All</option>
+  <option value="recommended">Recommended</option>
+  <option value="new">Newly Added</option>
   {%- for category in categories -%}
     <option id="{{category | downcase | trim}}" value="{{category | downcase | trim}}">{{category}}</option>
   {%- endfor -%}
@@ -49,9 +59,23 @@ layout: default
           {%- if dashboard.img -%}
             {%- assign img = dashboard.img -%}
           {%- endif -%}
-          {%- assign categories = dashboard.categories | split: ',' -%}
-          <div class="col d-flex align-items-stretch all {{categories | join: '&&' | downcase | remove: ' ' | replace: '&&', ' '}}">
+          {%- assign new = "" -%}
+          {%- if newly_added contains dashboard.link -%}
+            {%- assign new = "new" -%}
+          {%- endif -%}
+          {%- assign recommended = "" -%}
+          {%- if dashboard.recommended -%}
+            {%- assign recommended = "recommended" -%}
+          {%- endif -%}
+          {%- assign categories = dashboard.categories | split: ',' | sort -%}
+          <div class="col d-flex align-items-stretch all {{new}} {{recommended}}
+            {{categories | join: '&&' | downcase | remove: ' ' | replace: '&&', ' '}}">
             <div class="card rounded-3 mx-auto bg-blue text-gray h-100 p-3">
+              {%- if dashboard.recommended -%}
+                <div class="badge badge-recommended rounded-pill mx-auto">Recommended</div>
+              {%- elsif newly_added contains dashboard.link -%}
+                <div class="badge badge-new rounded-pill mx-auto">Newly Added</div>
+              {%- endif -%}
               <a href="{{dashboard.link}}" target="_blank">
                 <img src="{{img}}" loading="lazy" class="w-100 object-fit-cover rounded-2" 
                   style="aspect-ratio: 16 / 9; object-position: 0% 0%;">
