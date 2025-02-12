@@ -18,6 +18,11 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: MakerBurn
+  link: https://makerburn.com/#/
+  description: Dashboard for watching DAI/USDS minting and MKR/SKY token burning in real time.
+  img: /assets/img/dashboards/makerburn.webp
+  categories: Project Specific
 - name: EIPs Insight
   link: https://eipsinsight.com/resources
   description: Analytics and tools to provide insight into EIPs.
