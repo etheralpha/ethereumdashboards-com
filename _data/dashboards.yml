@@ -174,7 +174,7 @@
   link: https://www.rated.network/?network=mainnet&view=nodeOperator
   description: A measure of uptime — how available a validator or entity has been to provide network services.
   img: /assets/img/dashboards/rated.webp
-  categories: Staking
+  categories: Staking, Ecosystem Health
   recommended: true
 - name: ETH is Money
   link: https://www.ethismoney.xyz/
