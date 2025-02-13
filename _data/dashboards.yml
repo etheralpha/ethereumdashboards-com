@@ -18,6 +18,11 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: Rescue Node
+  link: https://stats.rescuenode.com
+  description: Useage stats for Rescue Node, a community-run, trust-minimized, and secured fallback node for emergencies and maintenance.
+  img: /assets/img/dashboards/rescuenode.webp
+  categories: Staking
 - name: MakerBurn
   link: https://makerburn.com/#/
   description: Dashboard for watching DAI/USDS minting and MKR/SKY token burning in real time.
