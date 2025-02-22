@@ -18,6 +18,16 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: Emoji Blocks
+  link: https://www.emojiblocks.com/
+  description: See Ethereum blocks visualized in real-time with emojis representing transaction.
+  img: /assets/img/dashboards/emojiblocks.webp
+  categories: Explorer
+- name: Obol Metrics
+  link: https://obol.org/dashboard 
+  description: This dashboard provides key metrics around the adoption of Obol Distributed Validators (DVs).
+  img: /assets/img/dashboards/oboldashboard.webp
+  categories: Project Specific
 - name: Rescue Node
   link: https://stats.rescuenode.com
   description: Useage stats for Rescue Node, a community-run, trust-minimized, and secured fallback node for emergencies and maintenance.
