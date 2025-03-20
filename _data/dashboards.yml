@@ -18,6 +18,11 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: Blobsy
+  link: https://blobsy.xyz/
+  description: An open-source visualization tool simulating blob aggregation using live blobs.
+  img: /assets/img/dashboards/blobsy.webp
+  categories: L2s, Scaling, Blobs, Fees
 - name: Emoji Blocks
   link: https://www.emojiblocks.com/
   description: See Ethereum blocks visualized in real-time with emojis representing transaction.
