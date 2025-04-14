@@ -20,9 +20,9 @@
 # Add new entries to the top
 - name: Blobsy
   link: https://blobsy.xyz/
-  description: A look into blob aggregation.
+  description: An open-source visualization tool simulating blob aggregation using live blobs.
   img: /assets/img/dashboards/blobsy.webp
-  categories: Blobs
+  categories: L2s, Scaling, Blobs, Fees
 - name: Strategic ETH Reserves
   link: https://www.strategicethreserve.xyz/
   description: Companies pledging to maintain ETH reserves for a sustainable Ethereum ecosystem.
