@@ -18,6 +18,11 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: Ethereum Events
+  link: https://ethereum.org/en/community/events/
+  description: Upcoming Ethereum events around the world.
+  img: /assets/img/dashboards/ethereumevents.webp
+  categories: Directory
 - name: Blobsy
   link: https://blobsy.xyz/
   description: An open-source visualization tool simulating blob aggregation using live blobs.
@@ -113,7 +118,7 @@
   link: https://lab.ethpandaops.io/
   description: Experimental platform for exploring Ethereum data and network statistics.
   img: /assets/img/dashboards/ethpandaopslab.webp
-  categories: Ecosystem Health, Block Production, Staking
+  categories: Ecosystem Health, Explorer, Block Production, Staking
 - name: Forky
   link: https://github.com/ethpandaops/forky?tab=readme-ov-file#-forky-
   description: Forky captures, stores and visualizes live fork choice data from the Ethereum network.
@@ -445,7 +450,8 @@
   img: /assets/img/dashboards/blobsimulator.webp
   categories: Blobs, Scaling
 - name: WalletBeat.fyi
-  link: https://www.walletbeat.fyi/
+  # link: https://www.walletbeat.fyi/
+  link: https://wallet.page/
   description: An open repository of EVM-compatible wallets.
   img: /assets/img/dashboards/walletbeatfyi.webp
   categories: Wallet, Security
