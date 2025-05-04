@@ -24,13 +24,32 @@ layout: default
 {%- endfor -%}
 {%- assign categories = categories | replace: ', ', ',' | split: ',' | uniq | sort -%}
 
+
+{%- assign category_counts = '' -%}
+{%- for category in categories -%}
+  {%- assign count = 0 -%}
+  {%- for dashboard in site.data.dashboards -%}
+    {%- if dashboard.categories contains category -%}
+      {%- assign count = count | plus: 1 -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- assign category_count = category | append: " ("  | append: count  | append: ")" -%}
+  {%- assign category_counts = category_counts | append: category_count | append: ',' -%}
+{%- endfor -%}
+{%- assign category_counts = category_counts | split: ',' -%}
+
+
+{%- assign categories = category_counts -%}
+
+
 <select id="categorySelect" class="form-select mx-auto mb-2 bg-blue" aria-label="select category" style="max-width: 18rem;">
   <option selected disabled value="all">Filter by category</option>
   <option value="all">All</option>
   <option value="recommended">Recommended</option>
   <option value="new">Newly Added</option>
   {%- for category in categories -%}
-    <option id="{{category | downcase | trim}}" value="{{category | downcase | trim}}">{{category}}</option>
+    {%- assign category_id = category | split: " (" | first | downcase | trim -%}
+    <option id="{{category_id}}" value="{{category_id}}">{{category}}</option>
   {%- endfor -%}
 </select>
 
