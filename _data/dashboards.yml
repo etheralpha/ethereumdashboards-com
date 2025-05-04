@@ -18,6 +18,11 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: Dapp Rank
+  link: https://dapprank.eth.link/
+  description: Dapp Rank benchmarks decentralized applications based on censorship resistance and security metrics.
+  img: /assets/img/dashboards/dapprank.webp
+  categories: Censorship, Security
 - name: Ethereum Events
   link: https://ethereum.org/en/community/events/
   description: Upcoming Ethereum events around the world.
