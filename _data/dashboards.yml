@@ -96,7 +96,7 @@
   categories: Fees, L2s, Scaling
 - name: BundleBear
   link: https://www.bundlebear.com/overview/all
-  description: A dashboard tracking the adoption of ERC-4337 smart accounts.
+  description: A dashboard tracking the adoption of smart accounts.
   img: /assets/img/dashboards/bundlebear.webp
   categories: Wallet
 - name: Ethereum IPv6 Support
