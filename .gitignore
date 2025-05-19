@@ -1,6 +1,7 @@
 *~
+_scripts/venv
 _scripts/.env
-**/.env
+**.env
 __pycache__
 _scripts/__pycache__
 **/__pycache__

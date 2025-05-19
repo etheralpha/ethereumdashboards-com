@@ -179,8 +179,8 @@
   description: Live Ethereum transaction visualizer with every tx as a person filling up buses which represent blocks.
   img: /assets/img/dashboards/txcity.webp
   categories: Fees
-- name: Blocknative Fees Estimator
-  link: https://www.blocknative.com/Fees-estimator
+- name: Blocknative Gas Estimator
+  link: https://www.blocknative.com/gas-estimator
   description: Accurate Fees fee prediction to help getting into the next block without overpaying.
   img: /assets/img/dashboards/blocknativegas.webp
   categories: Fees
