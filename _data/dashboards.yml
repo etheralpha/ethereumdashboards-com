@@ -181,7 +181,7 @@
   categories: Fees
 - name: Blocknative Gas Estimator
   link: https://www.blocknative.com/gas-estimator
-  description: Accurate Fees fee prediction to help getting into the next block without overpaying.
+  description: Accurate gas prediction to help getting into the next block without overpaying.
   img: /assets/img/dashboards/blocknativegas.webp
   categories: Fees
 - name: Ethereum Signature Database
