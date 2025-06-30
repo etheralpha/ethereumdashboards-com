@@ -5,19 +5,22 @@
 #   img:          # string; path of site screenshot; 640px wide compressed webp
 #   recommended:  # boolean; true/false; curated set of recommended dashboards
 #   categories:   # string; comma separated list of categories, case sensitive
-                  # options: Blobs, Censorship, Defi, Dev, Directory, Dune, Ecosystem Health, ETH, Explorer, Fees, L2s, MEV, Miscellaneous, News, Portfolio, Project Specific, RWAs, Scaling, Security, Staking, Wallet
-
+# options: Blobs, Censorship, Defi, Dev, Directory, Dune, Ecosystem Health, ETH, Explorer, Fees, L2s, MEV, Miscellaneous, News, Portfolio, Project Specific, RWAs, Scaling, Security, Staking, Wallet
 
 # Template to copy for new entries
-# - name: 
-#   link: 
-#   description: 
+# - name:
+#   link:
+#   description:
 #   img: /assets/img/dashboards/
-#   categories: 
-
+#   categories:
 
 # Entries shown in random order
 # Add new entries to the top
+- name: DeFiScan
+  link: https://defiscan.info/
+  description: Analytics and Research on the decentralization of DeFi protocols. Increases transparency on decentralization in DeFi.
+  img: /assets/img/dashboards/defiscan.webp
+  categories: Defi, Security, Ecosystem Health
 - name: Dapp Rank
   link: https://dapprank.eth.link/
   description: Dapp Rank benchmarks decentralized applications based on censorship resistance and security metrics.
@@ -55,7 +58,7 @@
   img: /assets/img/dashboards/emojiblocks.webp
   categories: Explorer
 - name: Obol Metrics
-  link: https://obol.org/dashboard 
+  link: https://obol.org/dashboard
   description: This dashboard provides key metrics around the adoption of Obol Distributed Validators (DVs).
   img: /assets/img/dashboards/oboldashboard.webp
   categories: Project Specific
@@ -89,7 +92,7 @@
   description: A dashboard tracking the activity and adoption metrics of Scroll users.
   img: /assets/img/dashboards/scrollstats.webp
   categories: Project Specific
-- name: GasFees.io 
+- name: GasFees.io
   link: https://www.gasfees.io/
   description: The cost of swap and transfers across L2s.
   img: /assets/img/dashboards/gasfeesio.webp
@@ -104,10 +107,10 @@
   description: The current state of IPv6 support within the Ethereum network, why we should improve it, and how we can do it.
   img: /assets/img/dashboards/ipv6eth.webp
   categories: Ecosystem Health
-- name: Ethereum Obituaries 
-  link: https://ethereumobituaries.com/ 
-  description: A list and chart of all the times Ethereum was declared dead.  
-  img: /assets/img/dashboards/ethereumobituaries.webp 
+- name: Ethereum Obituaries
+  link: https://ethereumobituaries.com/
+  description: A list and chart of all the times Ethereum was declared dead.
+  img: /assets/img/dashboards/ethereumobituaries.webp
   categories: Miscellaneous
 - name: EthProofs
   link: https://ethproofs.org/
@@ -289,12 +292,12 @@
   categories: Explorer
 - name: MigaLabs Blobs
   link: https://monitoreth.io/blobs
-  description: 
+  description:
   img: /assets/img/dashboards/migalabsblobs.webp
   categories: Blobs, Scaling
 - name: MigaLabs CL Nodes
   link: https://monitoreth.io/nodes
-  description: 
+  description:
   img: /assets/img/dashboards/migalabsnodes.webp
   categories: Ecosystem Health
 - name: Execution Diversity
@@ -535,10 +538,3 @@
   description: Illuminating Ethereum's order flow landscape with tools to visualize power and profit in the MEV supply network.
   img: /assets/img/dashboards/orderflowart.webp
   categories: Block Production, MEV
-  
-  
-
-
-
-
-
