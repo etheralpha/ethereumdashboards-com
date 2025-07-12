@@ -106,7 +106,7 @@
   categories: Project Specific
 - name: Rescue Node
   link: https://stats.rescuenode.com
-  description: Useage stats for Rescue Node, a community-run, trust-minimized, and secured fallback node for emergencies and maintenance.
+  description: Usage stats for Rescue Node, a community-run, trust-minimized, and secured fallback node for emergencies and maintenance.
   img: /assets/img/dashboards/rescuenode.webp
   categories: Staking
 - name: MakerBurn
