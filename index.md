@@ -11,7 +11,7 @@ layout: default
 
 
 {%- assign newly_added = "" -%}
-{%- assign newly_added_limit = 5 -%}
+{%- assign newly_added_limit = 10 -%}
 {%- for dashboard in site.data.dashboards limit:newly_added_limit -%}
   {%- assign newly_added = newly_added | append: dashboard.link | append: ", " -%}
 {%- endfor -%}

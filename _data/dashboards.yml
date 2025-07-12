@@ -18,6 +18,51 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: Blobsguru
+  link: https://blobs.guru/
+  description: Analyze Layer 2 blob transactions and EIP-4844 data for improved scalability and efficiency.
+  img: /assets/img/dashboards/blobsguru.webp
+  categories: L2s, Scaling, Blobs
+- name: LuckyStaker
+  link: https://luckystaker.com/luckystaker/
+  description: LuckyStaker provides statistics about validator staking and block proposal probailities.
+  img: /assets/img/dashboards/luckystaker.webp
+  categories: Staking
+- name: DeFi Scan
+  link: https://www.defiscan.info/
+  description: Transparency reviews of DeFi protocols to assess their decentralization progress and centralization risks.
+  img: /assets/img/dashboards/defiscan.webp
+  categories: Defi, Security
+- name: Stablewatch
+  link: https://www.stablewatch.io/
+  description: Track and compare historical APY performance of yield-bearing stablecoins.
+  img: /assets/img/dashboards/stablewatch.webp
+  categories: Defi, RWAs
+- name: Blobspace
+  link: https://www.blobspace.fun/
+  description: Visualized marketshare of L2 blob usage.
+  img: /assets/img/dashboards/blobspace.webp
+  categories: L2s, Blobs
+- name: SKY
+  link: https://info.sky.money/
+  description: Dashboard for watching MKR/SKY metrics.
+  img: /assets/img/dashboards/sky.webp
+  categories: Project Specific
+- name: Etherscan Charts & Statistics
+  link: https://etherscan.io/charts#section-blockchain-data
+  description: A collection of Ethereum charts and statistics showing market data, on-chain data, network data, top statistics, and contract data.
+  img: /assets/img/dashboards/etherscan.webp
+  categories: Ecosystem Health, Scaling
+- name: Forkcast
+  link: https://forkcast.org/
+  description: See what's on the horizon and how it impacts you. Track Ethereum network upgrades and explore how changes affect users, developers, and the ecosystem.
+  img: /assets/img/dashboards/forkcast.webp
+  categories: Dev
+- name: Ethereum Market Research Center
+  link: https://ethmrc.com/
+  description: Publishes and curates research content and news about Ethereum from key participants and thought leaders in its ecosystem.
+  img: /assets/img/dashboards/emrc.webp
+  categories: News
 - name: Dapp Rank
   link: https://dapprank.eth.link/
   description: Dapp Rank benchmarks decentralized applications based on censorship resistance and security metrics.
@@ -307,11 +352,11 @@
   description: Consensus & Execution layer client distribution.
   img: /assets/img/dashboards/clientdiversity.webp
   categories: Ecosystem Health
-- name: Rocket Pool Rocketscan
-  link: https://rocketscan.io/
-  description: Rocket Pool explorer for all things rETH and RPL.
-  img: /assets/img/dashboards/rocketscan.webp
-  categories: Explorer, Project Specific
+# - name: Rocket Pool Rocketscan
+#   link: https://rocketscan.io/
+#   description: Rocket Pool explorer for all things rETH and RPL.
+#   img: /assets/img/dashboards/rocketscan.webp
+#   categories: Explorer, Project Specific
 - name: Hildobby's Staking
   link: https://dune.com/hildobby/eth2-staking
   description: This dashboard tracks ETH sent to the Consensus Layer deposit address & beacon chain outflow.

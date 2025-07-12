@@ -1,0 +1,118 @@
+{%- assign announcement =  site.announcement -%}
+{%- if announcement.enabled -%}
+<style type="text/css">
+  .announcement {
+    width: fit-content;
+    max-width: 40rem;
+    padding: 4px;
+    font-size: 0.8rem;
+    opacity: 95%;
+    background-color: #1E2E3A;
+    display: block;
+    border-radius: 15px;
+  }
+  .announcement .megaphone svg {
+    margin-top: -2px;
+    margin-left: 5px;
+    margin-right: 3px;
+  }
+  .announcement img {
+    height: 20px;
+    margin-top: -2px;
+  }
+  a.announcement {
+    color: #fff !important;
+    text-decoration: none;
+  }
+  a.announcement:hover {
+    text-decoration: none;
+  }
+  .announcement .cta {
+    border-radius: 15px;
+    padding: 1px 11px;
+    background-color: #28455B;
+    font-weight: 500;
+    display: inline-block;
+    margin: -4px -1px;
+    color: #4fabef;
+  }
+
+  .announcement .bi-megaphone {
+    margin-top: -2px;
+    margin-left: 3px;
+  }
+
+
+  .announcement.turquoise {
+    background-color: #1f7e92;
+    color: #d0f9ff !important;
+  }
+  .turquoise .cta {
+    background-color: #44adc4;
+    color: #d0f9ff;
+  }
+  .turquoise .megaphone svg path {
+    stroke: #d0f9ff;
+  }
+
+
+  .announcement.red {
+    background-color: #921f1f;
+    color: #ffe4e4 !important;
+  }
+  .red .cta {
+    background-color: #c4444d;
+    /*color: #ffc3ca;*/
+    color: #ffe4e4;
+  }
+  .red .megaphone svg path {
+    stroke: #ffe4e4;
+  }
+
+  .announcement.purple {
+    background-color: #713e8c;
+    color: #f9e4ff !important;
+  }
+  .purple .cta {
+    background-color: #ae73b6cf;
+    color: #6100ab;
+  }
+  .purple .megaphone svg path {
+    stroke: #f9e4ff;
+  }
+
+
+  .announcement.etherealize {
+    background-color: #2f1748;
+    color: #f9e4ff !important;
+  }
+  .etherealize .cta {
+    background-color: #e4ccff1f;
+    color: #d56dff;
+  }
+
+  .announcement.telegram {
+    background-color: #1E2E3A;
+  }
+  .telegram .cta {
+    background-color: #28455B;
+    color: #4fabef;
+  }
+</style>
+
+
+<div id="announcementBar" class="d-flex align-items-center">
+  <a class="announcement {{announcement.theme}} mx-auto" href="{{announcement.link}}">
+    {% if announcement.img -%}
+      <img src="{{announcement.img}}">
+    {%- else -%}
+      {{site.data.icons.megaphone}}
+    {%- endif -%}
+    <span class="mx-1">{{announcement.text}}</span>
+    <span class="cta">
+      <span>{{announcement.cta}}</span>
+    </span>
+  </a>
+</div>
+
+{%- endif -%}
