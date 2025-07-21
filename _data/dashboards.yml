@@ -18,6 +18,11 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: Gas Limit Live Feed
+  link: https://eth-blocks.vercel.app/
+  description: View live Ethereum gas limit changes as blocks come in.
+  img: /assets/img/dashboards/ethblocks.webp
+  categories: Scaling, Gas
 - name: Block Size Calculator
   link: https://ethpandaops.github.io/blocksize/
   description: Calculate Ethereum block sizes for various configurations including Electra upgrade features.
@@ -438,7 +443,7 @@
   link: https://gaslimit.pics/
   description: A report on Gas Limit Signaling with interactive charts.
   img: /assets/img/dashboards/gaslimitpics.webp
-  categories: Scaling
+  categories: Scaling, Gas
 - name: Ethernow
   link: https://www.ethernow.xyz/
   description: What's happening on Ethereum right now?
