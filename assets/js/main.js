@@ -25,6 +25,16 @@ document.getElementById('categorySelect').addEventListener('change', function() 
   setFilter(this.value);
 });
 
+// Initialize search functionality
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('dashboardSearch');
+  if (searchInput) {
+    searchInput.addEventListener('input', function() {
+      applySearch(this.value);
+    });
+  }
+});
+
 
 
 // update the url parameters (does not trigger page refresh)
@@ -70,12 +80,66 @@ function setFilter(category) {
 }
 function applyFilter(category) {
   console.log('applying filter...', category)
+  
+  // Apply the current search filter with the new category
+  const searchInput = document.getElementById('dashboardSearch');
+  const searchTerm = searchInput ? searchInput.value : '';
+  applySearch(searchTerm);
+}
+
+/**
+ * Apply search filter to dashboard cards within selected category
+ * @param {string} searchTerm - The search term to filter by
+ */
+function applySearch(searchTerm) {
+  const searchLower = searchTerm.toLowerCase().trim();
+  const categorySelect = document.getElementById('categorySelect');
+  const selectedCategory = categorySelect.value;
+  
   document.querySelectorAll('.col').forEach(card => {
-    card.classList.add('d-none');
+    const nameElement = card.querySelector('a.fw-bold');
+    const name = nameElement ? nameElement.textContent.toLowerCase().trim() : '';
+    const descriptionElement = card.querySelector('.card-text p');
+    const description = descriptionElement ? descriptionElement.textContent.toLowerCase().trim() : '';
+    
+    // Check if card matches search term
+    const matchesSearch = searchLower === '' || 
+                         name.includes(searchLower) || 
+                         description.includes(searchLower);
+    
+    // Check if card matches category filter
+    let matchesCategory = true;
+    if (selectedCategory && selectedCategory !== 'all') {
+      if (selectedCategory === 'recommended') {
+        matchesCategory = card.classList.contains('recommended');
+      } else if (selectedCategory === 'new') {
+        matchesCategory = card.classList.contains('new');
+      } else {
+        matchesCategory = card.classList.contains(selectedCategory.replace(' ', ''));
+      }
+    }
+    
+    // Show card only if it matches both search and category
+    if (matchesSearch && matchesCategory) {
+      card.classList.remove('d-none');
+    } else {
+      card.classList.add('d-none');
+    }
   });
-  document.querySelectorAll(`.${category.replace(' ','')}`).forEach(card => {
-    card.classList.remove('d-none');
-  });
+  
+  updateDashboardCount();
+}
+
+/**
+ * Update the dashboard count display
+ */
+function updateDashboardCount() {
+  const visibleCards = document.querySelectorAll('.col:not(.d-none)').length;
+  const countElement = document.getElementById('dashboardCount');
+  
+  if (countElement) {
+    countElement.textContent = `${visibleCards} Dashboards`;
+  }
 }
 
 

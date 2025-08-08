@@ -41,20 +41,31 @@ layout: default
 
 {%- assign categories = category_counts -%}
 
-
-<select id="categorySelect" class="form-select mx-auto mb-2 bg-blue" aria-label="select category" style="max-width: 18rem;">
-  <option selected disabled value="all">Filter by category</option>
-  <option value="all">All</option>
-  <option value="recommended">Recommended</option>
-  <option value="new">Newly Added</option>
-  {%- for category in categories -%}
-    {%- assign category_id = category | split: " (" | first | downcase | trim -%}
-    <option id="{{category_id}}" value="{{category_id}}">{{category}}</option>
-  {%- endfor -%}
-</select>
+<!-- Filter Section -->
+<div class="mb-4 mx-auto d-flex flex-column flex-md-row align-items-center gap-3" style="max-width: 90%;">
+  <select id="categorySelect" class="form-select mx-auto bg-blue" aria-label="select category" style="max-width: 18rem; height: 3.5rem;">
+    <option selected disabled value="all">Filter by category</option>
+    <option value="all">All</option>
+    <option value="recommended">Recommended</option>
+    <option value="new">Newly Added</option>
+    {%- for category in categories -%}
+      {%- assign category_id = category | split: " (" | first | downcase | trim -%}
+      <option id="{{category_id}}" value="{{category_id}}">{{category}}</option>
+    {%- endfor -%}
+  </select>
+  
+  <input
+    type="text"
+    id="dashboardSearch"
+    class="form-control"
+    placeholder="Search by name"
+    aria-label="Search dashboards"
+    style="font-size: 1.1rem; padding: 1rem 1.25rem; height: 3.5rem; max-width: 32rem;"
+  >
+</div>
 
 <div class="mx-auto mb-3 opacity-50">
-  <small class="text-gray">{{site.data.dashboards | size}} Dashboards</small>
+  <small class="text-gray" id="dashboardCount">{{site.data.dashboards | size}} Dashboards</small>
 </div>
 
 
