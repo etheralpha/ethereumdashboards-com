@@ -43,7 +43,7 @@ layout: default
 
 <!-- Filter Section -->
 <div class="mb-4 mx-auto d-flex flex-column flex-md-row align-items-center gap-3" style="max-width: 90%;">
-  <select id="categorySelect" class="form-select mx-auto bg-blue" aria-label="select category" style="max-width: 18rem; height: 3.5rem;">
+  <select id="categorySelect" class="form-select mx-auto bg-blue" aria-label="select category" style="max-width: 18rem;">
     <option selected disabled value="all">Filter by category</option>
     <option value="all">All</option>
     <option value="recommended">Recommended</option>
@@ -53,15 +53,7 @@ layout: default
       <option id="{{category_id}}" value="{{category_id}}">{{category}}</option>
     {%- endfor -%}
   </select>
-  
-  <input
-    type="text"
-    id="dashboardSearch"
-    class="form-control"
-    placeholder="Search by name"
-    aria-label="Search dashboards"
-    style="font-size: 1.1rem; padding: 1rem 1.25rem; height: 3.5rem; max-width: 32rem;"
-  >
+  <input id="dashboardSearch" class="form-control" type="text" aria-label="Search dashboards" placeholder="Search by name">
 </div>
 
 <div class="mx-auto mb-3 opacity-50">

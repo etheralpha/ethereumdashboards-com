@@ -87,10 +87,8 @@ function applyFilter(category) {
   applySearch(searchTerm);
 }
 
-/**
- * Apply search filter to dashboard cards within selected category
- * @param {string} searchTerm - The search term to filter by
- */
+// Apply search filter to dashboard cards within selected category
+// @param {string} searchTerm - The search term to filter by
 function applySearch(searchTerm) {
   const searchLower = searchTerm.toLowerCase().trim();
   const categorySelect = document.getElementById('categorySelect');
