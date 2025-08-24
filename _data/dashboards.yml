@@ -18,6 +18,37 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: Ethereum Assembly Simulator
+  link: https://www.assemblytheory.xyz/ethereum/simulator/
+  description: Understanding ecosystem evolution through the lens of combinatorial complexity
+  img: /assets/img/dashboards/assemblysimulator.webp
+  categories: Explorer
+- name: ESPLR Explorer
+  link: https://paulmillr.com/apps/esplr/
+  description: Local browser-based Ethereum blockchain explorer using your own RPC URL.
+  img: /assets/img/dashboards/esplr.webp
+  categories: Explorer
+- name: High Value Moves
+  link: https://dune.com/growthepie/ethereum-biggest-moves
+  description: Highest value token transfers and DEX trades on Ethereum Mainnet.
+  img: /assets/img/dashboards/ethereummoves.webp
+  categories: Dune, ETH
+- name: Defi Risk Scores
+  link: https://sphere.blockanalitica.com/risk-scores
+  description: Risk scores for how pools react to sudden price shocks, based on borrower positions and on-chain liquidity.
+  img: /assets/img/dashboards/sphereriskscores.webp
+  categories: Defi, Security
+- name: Ethereum Apps
+  link: https://ethereum.org/en/apps/
+  description: Discover a list of curated applications that run on ethereum and layer 2 networks.
+  img: /assets/img/dashboards/ethereumapps.webp
+  recommended: true
+  categories: Directory
+- name: Aave Analytics
+  link: https://aave.tokenlogic.xyz/treasury
+  description: Aave protocol analytics and insights.
+  img: /assets/img/dashboards/aaveanalytics.webp
+  categories: Project Specific
 - name: Gas Limit Live Feed
   link: https://eth-blocks.vercel.app/
   description: View live Ethereum gas limit changes as blocks come in.
