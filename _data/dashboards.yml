@@ -18,6 +18,11 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: Lean Ethereum
+  link: https://leanroadmap.org/
+  description: Track research progress across all Lean Consensus R&D workstreams.
+  img: /assets/img/dashboards/leanroadmap.webp
+  categories: Protocol
 - name: Ethereum Assembly Simulator
   link: https://www.assemblytheory.xyz/ethereum/simulator/
   description: Understanding ecosystem evolution through the lens of combinatorial complexity
