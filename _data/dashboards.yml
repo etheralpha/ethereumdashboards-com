@@ -103,6 +103,7 @@
   link: https://forkcast.org/
   description: See what's on the horizon and how it impacts you. Track Ethereum network upgrades and explore how changes affect users, developers, and the ecosystem.
   img: /assets/img/dashboards/forkcast.webp
+  recommended: true
   categories: Protocol
 - name: Ethereum Market Research Center
   link: https://ethmrc.com/
