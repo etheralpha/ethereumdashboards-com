@@ -18,6 +18,11 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: x402scan
+  link: https://www.x402scan.com/
+  description: The x402 analytics dashboard to explore the future of agentic commerce.
+  img: /assets/img/dashboards/x402scan.webp
+  categories: 
 - name: Lean Ethereum
   link: https://leanroadmap.org/
   description: Track research progress across all Lean Consensus R&D workstreams.
