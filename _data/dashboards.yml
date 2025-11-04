@@ -5,7 +5,7 @@
 #   img:          # string; path of site screenshot; 640px wide compressed webp
 #   recommended:  # boolean; true/false; curated set of recommended dashboards
 #   categories:   # string; comma separated list of categories, case sensitive
-                  # options: Blobs, Censorship, Defi, Dev, Directory, Dune, Ecosystem Health, ETH, Explorer, Fees, L2s, MEV, Miscellaneous, News, Portfolio, Project Specific, Protocol, RWAs, Scaling, Security, Staking, Wallet
+                  # options: AI, Blobs, Censorship, Defi, Dev, Directory, Dune, Ecosystem Health, ETH, Explorer, Fees, L2s, MEV, Miscellaneous, News, Portfolio, Project Specific, Protocol, RWAs, Scaling, Security, Staking, Wallet
 
 
 # Template to copy for new entries
@@ -18,11 +18,21 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: Ethereum Blob Scaling
+  link: https://stokes.io/blob-scaling-fyi/
+  description: Blob scaling schedule and calculator.
+  img: /assets/img/dashboards/blobscalingfyi.webp
+  categories: Scaling, Blobs
+- name: zkEVM Readiness
+  link: https://zkevm.ethereum.foundation/
+  description: Evaluating core zkEVM implementations based on criteria required for a secure and sustainable mainnet deployment.
+  img: /assets/img/dashboards/zkevmreadiness.webp
+  categories: Scaling, Protocol
 - name: x402scan
   link: https://www.x402scan.com/
   description: The x402 analytics dashboard to explore the future of agentic commerce.
   img: /assets/img/dashboards/x402scan.webp
-  categories: 
+  categories: AI, Explorer
 - name: Lean Ethereum
   link: https://leanroadmap.org/
   description: Track research progress across all Lean Consensus R&D workstreams.
