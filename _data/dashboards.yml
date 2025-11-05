@@ -18,6 +18,11 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: 8004scan
+  link: https://www.8004scan.io/
+  description: Explore AI agents on the ERC-8004 protocol.
+  img: /assets/img/dashboards/8004scan.webp
+  categories: AI, Explorer
 - name: Ethereum Blob Scaling
   link: https://stokes.io/blob-scaling-fyi/
   description: Blob scaling schedule and calculator.
