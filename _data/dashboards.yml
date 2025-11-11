@@ -5,7 +5,7 @@
 #   img:          # string; path of site screenshot; 640px wide compressed webp
 #   recommended:  # boolean; true/false; curated set of recommended dashboards
 #   categories:   # string; comma separated list of categories, case sensitive
-                  # options: AI, Blobs, Censorship, Defi, Dev, Directory, Dune, Ecosystem Health, ETH, Explorer, Fees, L2s, MEV, Miscellaneous, News, Portfolio, Project Specific, Protocol, RWAs, Scaling, Security, Staking, Wallet
+                  # options: AI, Blobs, Censorship, Defi, Dev, Directory, Dune, Ecosystem Health, ETH, Explorer, Fees, L2s, MEV, Miscellaneous, News, Portfolio, Project Specific, Protocol, RWAs, Scaling, Security & Privacy, Staking, Wallet
 
 
 # Template to copy for new entries
@@ -18,6 +18,11 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: Tor in Ethereum Ecosystem
+  link: https://igor53627.github.io/tor-ethereum-ecosystem/
+  description: Privacy-preserving tools and infrastructure for Ethereum.
+  img: /assets/img/dashboards/torinethereum.webp
+  categories: Security & Privacy, Explorer
 - name: 8004scan
   link: https://www.8004scan.io/
   description: Explore AI agents on the ERC-8004 protocol.
@@ -62,7 +67,7 @@
   link: https://sphere.blockanalitica.com/risk-scores
   description: Risk scores for how pools react to sudden price shocks, based on borrower positions and on-chain liquidity.
   img: /assets/img/dashboards/sphereriskscores.webp
-  categories: Defi, Security
+  categories: Defi, Security & Privacy
 - name: Ethereum Apps
   link: https://ethereum.org/en/apps/
   description: Discover a list of curated applications that run on ethereum and layer 2 networks.
@@ -98,7 +103,7 @@
   link: https://www.defiscan.info/
   description: Transparency reviews of DeFi protocols to assess their decentralization progress and centralization risks.
   img: /assets/img/dashboards/defiscan.webp
-  categories: Defi, Security
+  categories: Defi, Security & Privacy
 - name: Stablewatch
   link: https://www.stablewatch.io/
   description: Track and compare historical APY performance of yield-bearing stablecoins.
@@ -134,7 +139,7 @@
   link: https://dapprank.eth.link/
   description: Dapp Rank benchmarks decentralized applications based on censorship resistance and security metrics.
   img: /assets/img/dashboards/dapprank.webp
-  categories: Censorship, Security
+  categories: Censorship, Security & Privacy
 - name: Ethereum Events
   link: https://ethereum.org/en/community/events/
   description: Upcoming Ethereum events around the world.
@@ -190,12 +195,12 @@
   link: https://l2safety.info/
   description: A simplified view of Ethereum Layer 2 risks sourced form L2BEAT.
   img: /assets/img/dashboards/l2safety.webp
-  categories: L2s, Security
+  categories: L2s, Security & Privacy
 - name: Web3Privacy
   link: https://explorer.web3privacy.info
   description: A 3 in 1 ranking system, database & comprehensive profiling to empower the general public in discerning the privacy levels, security, and reliability of Web3 projects.
   img: /assets/img/dashboards/web3privacy.webp
-  categories: Security, Wallet, Defi
+  categories: Security & Privacy, Wallet, Defi
 - name: ScrollStats
   link: https://www.scrollstats.com/
   description: A dashboard tracking the activity and adoption metrics of Scroll users.
@@ -315,7 +320,7 @@
   link: https://l2beat.com/
   description: Analytics and research website about Ethereum layer 2 scaling, comparing major protocols live on Ethereum today.
   img: /assets/img/dashboards/l2beat.webp
-  categories: L2s, Security
+  categories: L2s, Security & Privacy
   recommended: true
 - name: growthepie
   link: https://www.growthepie.xyz/
@@ -566,12 +571,12 @@
   link: https://wallet.page/
   description: An open repository of EVM-compatible wallets.
   img: /assets/img/dashboards/walletbeatfyi.webp
-  categories: Wallet, Security
+  categories: Wallet, Security & Privacy
 - name: WalletBeat.eth
   link: https://beta.walletbeat.eth.limo/
   description: An Ethereum wallet rating site providing a trustworthy, up-to-date source of information about the state of the wallet ecosystem.
   img: /assets/img/dashboards/walletbeateth.webp
-  categories: Wallet, Security
+  categories: Wallet, Security & Privacy
 - name: Staking Directory
   link: https://www.staking.directory/
   description: A community-maintained directory of Ethereum staking providers.

@@ -8,7 +8,7 @@ function load() {
   // if params detected, set active category
   let params = getQueryParameters();
   if ('category' in params) {
-    setFilter(decodeURI(params.category));
+    setFilter(decodeURI(decodeURIComponent(params.category)));
   }
   updateLinkTargets();
 }
@@ -67,7 +67,7 @@ function setFilter(category) {
   document.getElementById('categorySelect').value = category;
   console.log('select updated')
   // set url parameters
-  setQueryParameters(`category=${category}`);
+  setQueryParameters(`category=${encodeURIComponent(category)}`);
   console.log('url updated')
   // update page to apply filter
   applyFilter(category);
@@ -92,7 +92,7 @@ function applyFilter(category) {
 function applySearch(searchTerm) {
   const searchLower = searchTerm.toLowerCase().trim();
   const categorySelect = document.getElementById('categorySelect');
-  const selectedCategory = categorySelect.value;
+  const selectedCategory = categorySelect.value.replaceAll(' ','');
   
   document.querySelectorAll('.col').forEach(card => {
     const nameElement = card.querySelector('a.fw-bold');
