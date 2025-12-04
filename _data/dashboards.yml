@@ -5,7 +5,7 @@
 #   img:          # string; path of site screenshot; 640px wide compressed webp
 #   recommended:  # boolean; true/false; curated set of recommended dashboards
 #   categories:   # string; comma separated list of categories, case sensitive
-                  # options: AI, Blobs, Censorship, Defi, Dev, Directory, Dune, Ecosystem Health, ETH, Explorer, Fees, L2s, MEV, Miscellaneous, News, Portfolio, Project Specific, Protocol, RWAs, Scaling, Security & Privacy, Staking, Wallet
+                  # options: AI, Blobs, Censorship, Defi, Dev, Directory, Dune, Ecosystem, ETH, Explorer, Fees, L2s, MEV, Miscellaneous, Network Health, News, Portfolio, Project Specific, Protocol, RWAs, Scaling, Security & Privacy, Staking, Wallet
 
 
 # Template to copy for new entries
@@ -18,6 +18,41 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: ETHval
+  link: https://ethval.com/
+  description: A dashboard attempting to derive Ethereum's intrinsic value using different valuation methodologies.
+  img: /assets/img/dashboards/ethval.webp
+  categories: ETH
+- name: Ethereum Uptime
+  link: https://ethereumuptime.org/
+  description: Ethereum has never gone down. This dashboard tracks its 100% uptime record, unbroken since July 30, 2015.
+  img: /assets/img/dashboards/ethereumuptime.webp
+  categories: Network Health
+- name: Ethereum Foreign Reserves Rank
+  link: https://banklessbalance.xyz/
+  description: Compare Ethereum stablecoin market cap against all countries' foreign exchange reserves.
+  img: /assets/img/dashboards/banklessbalance.webp
+  categories: Ecosystem
+- name: Open Labels Initiative
+  link: https://www.openlabelsinitiative.org/
+  description: A standardized framework and data model for EVM address labeling.
+  img: /assets/img/dashboards/openlabelsinitiative.webp
+  categories: Dev, Directory
+- name: Institutional Data Hub
+  link: https://institutions.ethereum.org/data-hub
+  description: Track live, real-time data for mainnet activity, Layer 2 scaling, tokenized assets, and DeFi markets.
+  img: /assets/img/dashboards/institutionsethereum.webp
+  categories: Ecosystem
+- name: Web3Privacy Stacks
+  link: https://stacks.web3privacy.info/
+  description: Explore privacy-focused FOSS stacks.
+  img: /assets/img/dashboards/web3privacystacks.webp
+  categories: Directory, Security & Privacy
+- name: Blobs.money
+  link: https://blobs.money/
+  description: Realtime blob saturation and fee visualization. Simulate EIP7918 blob fees & burn.
+  img: /assets/img/dashboards/blobsmoney.webp
+  categories: Blobs, Fees
 - name: Tor in Ethereum Ecosystem
   link: https://igor53627.github.io/tor-ethereum-ecosystem/
   description: Privacy-preserving tools and infrastructure for Ethereum.
@@ -108,7 +143,7 @@
   link: https://www.stablewatch.io/
   description: Track and compare historical APY performance of yield-bearing stablecoins.
   img: /assets/img/dashboards/stablewatch.webp
-  categories: Defi, RWAs
+  categories: Defi, RWAs, Ecosystem
 - name: Blobspace
   link: https://www.blobspace.fun/
   description: Visualized marketshare of L2 blob usage.
@@ -123,7 +158,7 @@
   link: https://etherscan.io/charts#section-blockchain-data
   description: A collection of Ethereum charts and statistics showing market data, on-chain data, network data, top statistics, and contract data.
   img: /assets/img/dashboards/etherscan.webp
-  categories: Ecosystem Health, Scaling
+  categories: Network Health, Scaling
 - name: Forkcast
   link: https://forkcast.org/
   description: See what's on the horizon and how it impacts you. Track Ethereum network upgrades and explore how changes affect users, developers, and the ecosystem.
@@ -220,12 +255,12 @@
   link: https://ipv6eth.info/
   description: The current state of IPv6 support within the Ethereum network, why we should improve it, and how we can do it.
   img: /assets/img/dashboards/ipv6eth.webp
-  categories: Ecosystem Health
+  categories: Network Health
 - name: Ethereum Obituaries 
   link: https://ethereumobituaries.com/ 
   description: A list and chart of all the times Ethereum was declared dead.  
   img: /assets/img/dashboards/ethereumobituaries.webp 
-  categories: Miscellaneous
+  categories: News
 - name: EthProofs
   link: https://ethproofs.org/
   description: SNARKs that scale Ethereum.
@@ -235,12 +270,12 @@
   link: https://www.ethernets.io/
   description: Ethereum node diversity stats.
   img: /assets/img/dashboards/ethernets.webp
-  categories: Ecosystem Health
+  categories: Network Health
 - name: EthPandaOps Lab
   link: https://lab.ethpandaops.io/
   description: Experimental platform for exploring Ethereum data and network statistics.
   img: /assets/img/dashboards/ethpandaopslab.webp
-  categories: Ecosystem Health, Explorer, Block Production, Staking
+  categories: Network Health, Explorer, Block Production, Staking
 - name: Forky
   link: https://github.com/ethpandaops/forky?tab=readme-ov-file#-forky-
   description: Forky captures, stores and visualizes live fork choice data from the Ethereum network.
@@ -255,12 +290,12 @@
   link: https://tokenterminal.com/explorer/studio/dashboards/cf4f2010-c412-4bc7-b5ab-76dd866828e6
   description: Key metrics for the L1 and the leading L2s.
   img: /assets/img/dashboards/tokenterminalgrowth.webp
-  categories: Scaling, L2s, Fees
+  categories: Scaling, L2s, Fees, Ecosystem
 - name: Ethereum L1 GDP
   link: https://tokenterminal.com/explorer/studio/dashboards/6b657b86-b89f-4851-a3cb-a315a866efb1
   description: A measurement of how much end users paid to interact with the chain's applications.
   img: /assets/img/dashboards/tokenterminalgdp.webp
-  categories: Fees
+  categories: Fees, Ecosystem
 - name: Builder Love
   link: https://www.builder.love/
   description: A look into Ethereum's development stats.
@@ -310,7 +345,7 @@
   link: https://geographicdiversity.org/
   description: Explore geographic staking decentralization in Ethereum.
   img: /assets/img/dashboards/geographicdiversity.webp
-  categories: Ecosystem Health
+  categories: Network Health
 - name: Etherealize Dashboard
   link: https://dashboard.etherealize.io/
   description: A snapshot of the Ethereum economy.
@@ -326,13 +361,13 @@
   link: https://www.growthepie.xyz/
   description: Ethereum and Layer 2 analytics covering fundamental metrics, economics, blockspace usage, and much more.
   img: /assets/img/dashboards/growthepie.webp
-  categories: L2s, Scaling, Blobs
+  categories: L2s, Scaling, Blobs, Ecosystem
   recommended: true
 - name: Rated
   link: https://www.rated.network/?network=mainnet&view=nodeOperator
   description: A measure of uptime — how available a validator or entity has been to provide network services.
   img: /assets/img/dashboards/rated.webp
-  categories: Staking, Ecosystem Health
+  categories: Staking, Network Health
   recommended: true
 - name: ETH is Money
   link: https://www.ethismoney.xyz/
@@ -344,13 +379,13 @@
   link: https://app.rwa.xyz/
   description: RWA.xyz provides analytics on Tokenized Real-World Assets.
   img: /assets/img/dashboards/rwaxyz.webp
-  categories: RWAs
+  categories: RWAs, Ecosystem
   recommended: true
 - name: Ethereum Adoption
   link: https://ethereumadoption.com/
   description: A list of high profile entities building on Ethereum.
   img: /assets/img/dashboards/ethereumadoption.webp
-  categories: Miscellaneous
+  categories: Ecosystem
   recommended: true
 - name: Rollup Codes
   link: https://www.rollup.codes/
@@ -393,37 +428,32 @@
   link: https://ethsunshine.com/
   description: A dashboard to measure the health of Ethereum's decentralization.
   img: /assets/img/dashboards/projectsunshine.webp
-  categories: Ecosystem Health
+  categories: Network Health
 - name: Node Watch
   link: https://nodewatch.io/
   description: Node statistics including node count, geographic diversity, distribution details, and sync status.
   img: /assets/img/dashboards/nodewatch.webp
-  categories: Ecosystem Health
+  categories: Network Health
 - name: EthSeer
   link: https://ethseer.io/?network=mainnet
   description: EthSeer provides information about Beacon Chain blocks being produced in real-time.
   img: /assets/img/dashboards/ethseer.webp
   categories: Explorer
-- name: MigaLabs Blobs
-  link: https://monitoreth.io/blobs
-  description: 
-  img: /assets/img/dashboards/migalabsblobs.webp
-  categories: Blobs, Scaling
-- name: MigaLabs CL Nodes
-  link: https://monitoreth.io/nodes
-  description: 
-  img: /assets/img/dashboards/migalabsnodes.webp
-  categories: Ecosystem Health
+- name: MigaLabs
+  link: https://www.migalabs.io/
+  description: Discover Ethereum through MigaLabs blockchain ecosystem observatory.
+  img: /assets/img/dashboards/migalabs.webp
+  categories: Network Health, Staking, Blobs
 - name: Execution Diversity
   link: https://execution-diversity.info/
   description: About the supermajority client risk of the execution layer, especially the client usage of staking services and pools.
   img: /assets/img/dashboards/executiondiversity.webp
-  categories: Ecosystem Health
+  categories: Network Health
 - name: ClientDiversity.org
   link: https://clientdiversity.org/
   description: Consensus & Execution layer client distribution.
   img: /assets/img/dashboards/clientdiversity.webp
-  categories: Ecosystem Health
+  categories: Network Health
 # - name: Rocket Pool Rocketscan
 #   link: https://rocketscan.io/
 #   description: Rocket Pool explorer for all things rETH and RPL.
@@ -465,7 +495,7 @@
   link: https://stablecoins.wtf
   description: We accumulate quantitative live-data of major stablecoins in a single dashboard. And we aim to make the data understandable by everyone.
   img: /assets/img/dashboards/stablecoinswtf.webp
-  categories: RWAs
+  categories: RWAs, Ecosystem
 - name: Flashbots
   link: https://transparency.flashbots.net/
   description: The Flashbots MEV-Boost transparency dashboard is a public dashboard of metrics related to the Flashbots MEV-Boost relay and builder.
@@ -510,7 +540,7 @@
   link: https://www.ethernow.xyz/
   description: What's happening on Ethereum right now?
   img: /assets/img/dashboards/ethernow.webp
-  categories: Miscellaneous
+  categories: Ecosystem
 - name: LlamaFeed
   link: https://feed.defillama.com/
   description: A customizable crypto news aggregator.
@@ -540,7 +570,7 @@
   link: https://mevboost.pics/
   description: Select comparative visualizations on MEV-Boost and Proposer Builder Separation on Ethereum.
   img: /assets/img/dashboards/mevboostpics.webp
-  categories: MEV, Block Production, Ecosystem Health
+  categories: MEV, Block Production, Network Health
 - name: Ethereum Timing Dashboard
   link: https://timing.pics/
   description: Selected comparative visualizations on block proposal timings and missed slots on Ethereum.
@@ -596,7 +626,7 @@
   link: https://money-movers.info/
   description: Which blockchain is settling more value?
   img: /assets/img/dashboards/moneymovers.webp
-  categories: Miscellaneous
+  categories: Ecosystem
 - name: Restaking.info
   link: https://restaking.info/
   description: Your home for all things restaking.
@@ -626,7 +656,7 @@
   link: https://chainbound.grafana.net/public-dashboards/d001850804e1454fa24852c9dd82db97
   description: Visualize geographical distribution of active Ethereum nodes across the world.
   img: /assets/img/dashboards/ulisse.webp
-  categories: Ecosystem Health
+  categories: Network Health
 - name: CoinGlass ETF Flows
   link: https://www.coinglass.com/eth-etf
   description: A comprehensive tracker and overview to monitor Ethereum ETF inflows, outflows, and volume.
@@ -641,7 +671,7 @@
   link: https://digiconomist.net/ethereum-energy-consumption
   description: The Ethereum Energy Consumption Index provides the latest estimate of the total energy consumption of the Ethereum network.
   img: /assets/img/dashboards/energyindex.webp
-  categories: Miscellaneous
+  categories: Network Health
 - name: DappRadar
   link: https://dappradar.com/
   description: Track your portfolio and discover fast-growing dapps and trending tokens.
