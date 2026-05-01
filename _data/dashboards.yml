@@ -18,6 +18,166 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: ETH TPS
+  link: https://eth-tps-tau.vercel.app/
+  description: Monitoring Ethereum's real TPS for EL and CL combined.
+  img: /assets/img/dashboards/ethtpstau.webp
+  categories: Scaling
+- name: EEA Ethereum Vendor Catalogue
+  link: https://entethalliance.github.io/solutioncat/
+  description: The marketplace of verified Ethereum vendors for business.
+  img: /assets/img/dashboards/entethalliancecat.webp
+  categories: Directory
+- name: EthIQ
+  link: https://ethiq.ethpandaops.io/performance
+  description: Ethereum protocol knowledge benchmarks for AI.
+  img: /assets/img/dashboards/ethiq.webp
+  categories: AI
+# - name: Usecase Lab
+#   link: https://explorer.usecaselab.org
+#   description: 
+#   img: /assets/img/dashboards/usecaselab.webp
+#   categories: 
+- name: Ethereum Ecosystem Stewards
+  link: https://mandate.clophorse.eth.limo/
+  description: A comprehensive map of the organizations and individuals stewarding Ethereum beyond the EF.
+  img: /assets/img/dashboards/clophorse.webp
+  categories: Directory, Network Health, Ecosystem
+- name: The Ethereum Page
+  link: https://ethereumpage.com/
+  description: A map of useful resources, jumping points, and players shaping Ethereum's future.
+  img: /assets/img/dashboards/ethereumpage.webp
+  categories: Directory, Ecosystem
+- name: Rocketdash
+  link: https://rocketdash.net
+  description: Real-time Rocket Pool dashboard for protocol metrics, validator activity, megapool queue status, and network statistics.
+  img: /assets/img/dashboards/rocketdash.webp
+  categories: Project Specific
+- name: Ethereum Status
+  link: https://ethereumstatus.org/
+  description: A status page to show if Ethereum is up and running.
+  img: /assets/img/dashboards/ethereumstatus.webp
+  categories: Network Health
+- name: Ethereum Gas Tracker
+  link: https://www.ethgastracker.com/
+  description: Monitor and track Ethereum and L2 gas prices to reduce transaction fees, save money and take control of your blockchain experience
+  img: /assets/img/dashboards/ethgastracker.webp
+  categories: Fees
+- name: Crypto Native Jobs
+  link: https://jobstash.xyz
+  description: Explore crypto native jobs across the entire crypto ecosystem.
+  img: /assets/img/dashboards/jobstash.webp
+  categories: Directory
+- name: DEX Analytics
+  link: https://dexanalytics.org/
+  description: DEX Analytics allows DeFi Researchers to access core DEX data schemas with open, standardized methodologies.
+  img: /assets/img/dashboards/dexanalytics.webp
+  categories: Defi
+- name: ProbeLab Analytics
+  link: https://probelab.io/ethereum/topology/#chart-cloud-provider-ts
+  description: Ethereum network analytics and monitoring for insights into topology, bootstrappers, and protocol metrics.
+  img: /assets/img/dashboards/probelab.webp
+  categories: Network Health
+- name: MEV Builder Bids Dashboard
+  link: https://bids.pics/
+  description: Real-time visualization of MEV builder bids as block builders compete for block space on Ethereum.
+  img: /assets/img/dashboards/bidspics.webp
+  categories: MEV
+- name: Latest Ethereum news | Ethereal News
+  link: https://ethereal.news/
+  description: Ethereal news is curated Ethereum news focused on developers (core & application).
+  img: /assets/img/dashboards/ethereal.webp
+  categories: News
+- name: x402Everything
+  link: https://x402everything.ai/
+  description: Real-time visualization comparing human payments to x402 agentic payments.
+  img: /assets/img/dashboards/x402everything.webp
+  categories: AI
+- name: Trillion Dollar Security Dashboard | Ethereum Security Analysis
+  link: https://trilliondollarsecurity.org/
+  description: An overview of Ethereum's security posture, risks, mitigations, and progress across six critical dimensions.
+  img: /assets/img/dashboards/trilliondollarsecurity.webp
+  categories: Network Health, Security & Privacy
+- name: Virtuals Agentic Commerce
+  link: https://app.virtuals.io/acp/scan/agents
+  description: Shows ACP agent ecosystem stats, leaderboards, transactions, and performance metrics.
+  img: /assets/img/dashboards/virtualsagents.webp
+  categories: AI
+- name: Nodeset
+  link: https://stats.nodeset.io/
+  description: NodeSet validator monitoring dashboard to track Ethereum validators on Stakewise protocol.
+  img: /assets/img/dashboards/nodeset.webp
+  categories: Project Specific, Staking
+- name: Ethereum Draft Roadmap
+  link: https://strawmap.org/
+  description: A work-in-progress draft Ethereum roadmap covering consensus, data, and execution layer priorities through 2030+.
+  img: /assets/img/dashboards/strawmap.webp
+  categories: Protocol
+- name: Ethereum History
+  link: https://www.ethereumhistory.com/browse
+  description: A historical archive and analysis tool for Ethereum smart contracts from the early years.
+  img: /assets/img/dashboards/ethereumhistory.webp
+  categories: Explorer
+- name: .eth Leaderboard
+  link: https://ethleaderboard.com/
+  description: The most followed Twitter accounts with .eth names.
+  img: /assets/img/dashboards/ethleaderboard.webp
+  categories: Project Specific
+- name: Post-Quantum Ethereum
+  link: https://pq.ethereum.org/
+  description: Securing Ethereum against quantum threats through cryptographic agility, hash-based signatures, and SNARK-based aggregation across all protocol layers.
+  img: /assets/img/dashboards/pqethereum.webp
+  categories: Protocol
+- name: Ethereum Local
+  link: https://ethlocal.world/
+  description: Interactive map for Ethereum community events, meetup groups, conferences, hackathons, and hubs.
+  img: /assets/img/dashboards/ethlocal.webp
+  categories: Explorer
+- name: Ethereum Inclusion Time
+  link: https://txdelay.pics
+  description: Live fee-viable transaction inclusion time on Ethereum updated every 60 seconds.
+  img: /assets/img/dashboards/txdelay.webp
+  categories: Fees
+- name: EIPs.sh
+  link: https://eips.sh/
+  description: EIPs and ERCs defining protocol changes and application standards for Ethereum.
+  img: /assets/img/dashboards/eipssh.webp
+  categories: Protocol
+- name: Validator Cost Calculator
+  link: https://validatorcosts.kyne.eu/
+  description: Compare the costs of running your own Ethereum validator vs. staking through delegation pools.
+  img: /assets/img/dashboards/validatorcosts.webp
+  categories: Staking
+- name: ENS History
+  link: https://ens.eth.sh/history
+  description: Check IPFS content changes, ownership transfers and more over time.
+  img: /assets/img/dashboards/ensethsh.webp
+  categories: Project Specific
+- name: ETH.sh Tools
+  link: https://eth.sh/
+  description: Suite of EVM tools for Ethereum developers and users.
+  img: /assets/img/dashboards/ethsh.webp
+  categories: Dev, Directory
+- name: Productive Money
+  link: https://www.productivemoney.org/#dashboard
+  description: Ether's monetary properties are superior to gold and Bitcoin, it's productive money.
+  img: /assets/img/dashboards/productivemoney.webp
+  categories: ETH
+- name: ETHSKILLS
+  link: https://ethskills.com/
+  description: The missing knowledge between AI agents and production Ethereum.
+  img: /assets/img/dashboards/ethskills.webp
+  categories: Dev, AI
+- name: Ethereum Sync Committee
+  link: https://ethsync.wtf/
+  description: Sync committee participation rates, BLS signature aggregation, light client health, RANDAO committee selection, and subnet architecture.
+  img: /assets/img/dashboards/ethsync.webp
+  categories: Network Health, Staking
+- name: Ethereum Knowledge Space
+  link: https://www.ethereum-knowledge.com/
+  description: Search 262 curated Ethereum sources with natural language — powered by Claude.
+  img: /assets/img/dashboards/ethereumknowledge.webp
+  categories: Directory
 - name: ETHval
   link: https://ethval.com/
   description: A dashboard attempting to derive Ethereum's intrinsic value using different valuation methodologies.
@@ -98,11 +258,11 @@
   description: Highest value token transfers and DEX trades on Ethereum Mainnet.
   img: /assets/img/dashboards/ethereummoves.webp
   categories: Dune, ETH
-- name: Defi Risk Scores
-  link: https://sphere.blockanalitica.com/risk-scores
-  description: Risk scores for how pools react to sudden price shocks, based on borrower positions and on-chain liquidity.
+- name: Defi Sphere
+  link: https://app.defi-sphere.com/
+  description: DeFi lending analytics, real-time rates, markets, liquidations, and protocol data.
   img: /assets/img/dashboards/sphereriskscores.webp
-  categories: Defi, Security & Privacy
+  categories: Defi
 - name: Ethereum Apps
   link: https://ethereum.org/en/apps/
   description: Discover a list of curated applications that run on ethereum and layer 2 networks.
@@ -113,7 +273,7 @@
   link: https://aave.tokenlogic.xyz/treasury
   description: Aave protocol analytics and insights.
   img: /assets/img/dashboards/aaveanalytics.webp
-  categories: Project Specific
+  categories: Project Specific, Defi
 - name: Gas Limit Live Feed
   link: https://eth-blocks.vercel.app/
   description: View live Ethereum gas limit changes as blocks come in.
@@ -153,7 +313,7 @@
   link: https://info.sky.money/
   description: Dashboard for watching MKR/SKY metrics.
   img: /assets/img/dashboards/sky.webp
-  categories: Project Specific
+  categories: Project Specific, Defi
 - name: Etherscan Charts & Statistics
   link: https://etherscan.io/charts#section-blockchain-data
   description: A collection of Ethereum charts and statistics showing market data, on-chain data, network data, top statistics, and contract data.
@@ -210,7 +370,7 @@
   link: https://obol.org/dashboard 
   description: This dashboard provides key metrics around the adoption of Obol Distributed Validators (DVs).
   img: /assets/img/dashboards/oboldashboard.webp
-  categories: Project Specific
+  categories: Project Specific, Staking
 - name: Rescue Node
   link: https://stats.rescuenode.com
   description: Usage stats for Rescue Node, a community-run, trust-minimized, and secured fallback node for emergencies and maintenance.
@@ -220,7 +380,7 @@
   link: https://makerburn.com/#/
   description: Dashboard for watching DAI/USDS minting and MKR/SKY token burning in real time.
   img: /assets/img/dashboards/makerburn.webp
-  categories: Project Specific
+  categories: Project Specific, L2s, Defi
 - name: EIPs Insight
   link: https://eipsinsight.com/resources
   description: Analytics and tools to provide insight into EIPs.
@@ -240,7 +400,7 @@
   link: https://www.scrollstats.com/
   description: A dashboard tracking the activity and adoption metrics of Scroll users.
   img: /assets/img/dashboards/scrollstats.webp
-  categories: Project Specific
+  categories: Project Specific, L2s
 - name: GasFees.io 
   link: https://www.gasfees.io/
   description: The cost of swap and transfers across L2s.
@@ -315,7 +475,7 @@
   link: https://bolder.cash/
   description: Data on the Liquity Bold stablecoin and related forks.
   img: /assets/img/dashboards/boldercash.webp
-  categories: Defi, Project Specific
+  categories: Project Specific, Staking, Defi
 - name: Open Source Observer
   link: https://www.opensource.observer/
   description: A free analytics suite that helps funders measure the impact of open source software contributions to the health of their ecosystem.
@@ -394,7 +554,7 @@
   categories: L2s, Dev
   recommended: true
 - name: Beaconcha.in
-  link: https://beaconcha.in/
+  link: https://beaconcha.in/explorer
   description: Open source Ethereum Beacon Chain explorer.
   img: /assets/img/dashboards/beaconchain.webp
   categories: Explorer, Staking
@@ -424,11 +584,11 @@
   description: "Everything you need to know about the Ethereum roadmap: The Merge, Surge, Scourge, Verge, Purge and Splurge."
   img: /assets/img/dashboards/ethroadmap.webp
   categories: Dev
-- name: Project Sunshine
-  link: https://ethsunshine.com/
-  description: A dashboard to measure the health of Ethereum's decentralization.
-  img: /assets/img/dashboards/projectsunshine.webp
-  categories: Network Health
+# - name: Project Sunshine
+#   link: https://ethsunshine.com/
+#   description: A dashboard to measure the health of Ethereum's decentralization.
+#   img: /assets/img/dashboards/projectsunshine.webp
+#   categories: Network Health
 - name: Node Watch
   link: https://nodewatch.io/
   description: Node statistics including node count, geographic diversity, distribution details, and sync status.
@@ -444,10 +604,15 @@
   description: Discover Ethereum through MigaLabs blockchain ecosystem observatory.
   img: /assets/img/dashboards/migalabs.webp
   categories: Network Health, Staking, Blobs
-- name: Execution Diversity
-  link: https://execution-diversity.info/
-  description: About the supermajority client risk of the execution layer, especially the client usage of staking services and pools.
-  img: /assets/img/dashboards/executiondiversity.webp
+# - name: Execution Diversity
+#   link: https://execution-diversity.info/
+#   description: About the supermajority client risk of the execution layer, especially the client usage of staking services and pools.
+#   img: /assets/img/dashboards/executiondiversity.webp
+#   categories: Network Health
+- name: Supermajority Risk
+  link: https://supermajority.info/
+  description: The supermajority client risk of the Ethereum execution layer, especially the client usage of staking services and pools.
+  img: /assets/img/dashboards/supermajority.webp
   categories: Network Health
 - name: ClientDiversity.org
   link: https://clientdiversity.org/
@@ -458,7 +623,7 @@
 #   link: https://rocketscan.io/
 #   description: Rocket Pool explorer for all things rETH and RPL.
 #   img: /assets/img/dashboards/rocketscan.webp
-#   categories: Explorer, Project Specific
+#   categories: Explorer, Project Specific, Staking
 - name: Hildobby's Staking
   link: https://dune.com/hildobby/eth2-staking
   description: This dashboard tracks ETH sent to the Consensus Layer deposit address & beacon chain outflow.
@@ -552,7 +717,7 @@
   img: /assets/img/dashboards/payload.webp
   categories: MEV, Block Production
 - name: RelayScan.io
-  link: relayscan.io
+  link: https://relayscan.io
   description: Monitoring, analytics & data for Ethereum MEV-Boost builders and relays.
   img: /assets/img/dashboards/relayscan.webp
   categories: MEV, Block Production

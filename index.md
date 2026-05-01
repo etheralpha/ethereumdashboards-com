@@ -2,16 +2,11 @@
 layout: default
 ---
 
-
-{%- comment -%}
-  {{". \_scripts/bin/activate && python \_scripts/convert_images.py" | shell}}
-{%- endcomment -%}
-
 {%- include partials/header.html -%}
 
 
 {%- assign newly_added = "" -%}
-{%- assign newly_added_limit = 7 -%}
+{%- assign newly_added_limit = 32 -%}
 {%- for dashboard in site.data.dashboards limit:newly_added_limit -%}
   {%- assign newly_added = newly_added | append: dashboard.link | append: ", " -%}
 {%- endfor -%}
