@@ -1,0 +1,6 @@
+- https://eth-tps-tau.vercel.app/  # ERROR: Page.get_attribute: Timeout 30000ms exceeded. Call log:   - waiting for locator("meta[name=\"description\"]") 
+- https://entethalliance.github.io/solutioncat/  # ERROR: Page.get_attribute: Timeout 30000ms exceeded. Call log:   - waiting for locator("meta[name=\"description\"]") 
+- https://ethiq.ethpandaops.io/performance  # ERROR: Page.get_attribute: Timeout 30000ms exceeded. Call log:   - waiting for locator("meta[name=\"description\"]") 
+- https://explorer.usecaselab.org  # ERROR: Page.get_attribute: Timeout 30000ms exceeded. Call log:   - waiting for locator("meta[name=\"description\"]") 
+- https://mandate.clophorse.eth.limo/  # ERROR: Page.get_attribute: Timeout 30000ms exceeded. Call log:   - waiting for locator("meta[name=\"description\"]") 
+- https://ethereumpage.com/  # ERROR: Page.get_attribute: Timeout 30000ms exceeded. Call log:   - waiting for locator("meta[name=\"description\"]") 
