@@ -24,8 +24,8 @@ bootstrap_css: <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css
 # Announcement
 announcement:
   enabled: true
-  theme: default # default, ethereum, etherealize, telegram, purple, red
-  # img: /assets/img/announcements/etherealize.png # optional, leave blank for megaphone
-  text: "Announcing: The Bull Case for ETH"
-  link: https://ethdigitaloil.com
+  theme: etherealize # default, ethereum, etherealize, telegram, purple, red
+  img: /assets/img/announcements/etherealize.png # optional, leave blank for megaphone
+  text: "Etherealize: Ethereum and the Era of Productive Money"
+  link: https://www.productivemoney.org/
   cta: Read ↗
