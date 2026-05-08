@@ -18,6 +18,11 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: Staking Draft Roadmap
+  link: https://strakemap.org/
+  description: A work-in-progress draft Ethereum roadmap limited to a focus on staking related items.
+  img: /assets/img/dashboards/stakemap.webp
+  categories: Protocol, Staking
 - name: ETH TPS
   link: https://eth-tps-tau.vercel.app/
   description: Monitoring Ethereum's real TPS for EL and CL combined.
