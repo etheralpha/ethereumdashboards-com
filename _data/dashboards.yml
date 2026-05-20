@@ -18,21 +18,46 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: RDL.fi
+  link: https://rld.fi/data
+  description: Ethereum lending dashboard to monitor 6 protocols and 1336 markets.
+  img: /assets/img/dashboards/rdlfi.webp
+  categories: Defi
+- name: Risklayer
+  link: https://risklayer.online/
+  description: AI protocol analysis, portfolio-aware monitoring, and alerts for people holding on-chain risk.
+  img: /assets/img/dashboards/risklayer.webp
+  categories: Defi, Security & Privacy
+- name: Rocket Sweep
+  link: https://rocketsweep.app/
+  description: A tool for Rocket Pool node operators to view and claim rewards.
+  img: /assets/img/dashboards/rocketsweep.webp
+  categories: Project Specific, Explorer, Staking
+- name: Rocket Explorer
+  link: https://rocketexplorer.net
+  description: Rocket Explorer is an open-source tool for analyzing and visualizing the decentralized Rocket Pool network.
+  img: /assets/img/dashboards/rocketexplorer.webp
+  categories: Project Specific, Staking
+- name: Rocket Performance
+  link: https://rocket-performance.net/
+  description: Performance analysis of Rocket Pool validators.
+  img: /assets/img/dashboards/rocketperformance.webp
+  categories: Project Specific, Staking
 - name: Staking Draft Roadmap
   link: https://strakemap.org/
   description: A work-in-progress draft Ethereum roadmap limited to a focus on staking related items.
   img: /assets/img/dashboards/stakemap.webp
   categories: Protocol, Staking
-- name: ETH TPS
-  link: https://eth-tps-tau.vercel.app/
-  description: Monitoring Ethereum's real TPS for EL and CL combined.
-  img: /assets/img/dashboards/ethtpstau.webp
-  categories: Scaling
 - name: EEA Ethereum Vendor Catalogue
   link: https://entethalliance.github.io/solutioncat/
   description: The marketplace of verified Ethereum vendors for business.
   img: /assets/img/dashboards/entethalliancecat.webp
   categories: Directory
+- name: ETH TPS
+  link: https://eth-tps-tau.vercel.app/
+  description: Monitoring Ethereum's real TPS for EL and CL combined.
+  img: /assets/img/dashboards/ethtpstau.webp
+  categories: Scaling
 - name: EthIQ
   link: https://ethiq.ethpandaops.io/performance
   description: Ethereum protocol knowledge benchmarks for AI.
@@ -57,7 +82,7 @@
   link: https://rocketdash.net
   description: Real-time Rocket Pool dashboard for protocol metrics, validator activity, megapool queue status, and network statistics.
   img: /assets/img/dashboards/rocketdash.webp
-  categories: Project Specific
+  categories: Project Specific, Staking
 - name: Ethereum Status
   link: https://ethereumstatus.org/
   description: A status page to show if Ethereum is up and running.
@@ -75,7 +100,7 @@
   categories: Directory
 - name: DEX Analytics
   link: https://dexanalytics.org/
-  description: DEX Analytics allows DeFi Researchers to access core DEX data schemas with open, standardized methodologies.
+  description: DEX Analytics allows defi Researchers to access core DEX data schemas with open, standardized methodologies.
   img: /assets/img/dashboards/dexanalytics.webp
   categories: Defi
 - name: ProbeLab Analytics
@@ -205,7 +230,7 @@
   categories: Dev, Directory
 - name: Institutional Data Hub
   link: https://institutions.ethereum.org/data-hub
-  description: Track live, real-time data for mainnet activity, Layer 2 scaling, tokenized assets, and DeFi markets.
+  description: Track live, real-time data for mainnet activity, Layer 2 scaling, tokenized assets, and defi markets.
   img: /assets/img/dashboards/institutionsethereum.webp
   categories: Ecosystem
 - name: Web3Privacy Stacks
@@ -265,7 +290,7 @@
   categories: Dune, ETH
 - name: Defi Sphere
   link: https://app.defi-sphere.com/
-  description: DeFi lending analytics, real-time rates, markets, liquidations, and protocol data.
+  description: Defi lending analytics, real-time rates, markets, liquidations, and protocol data.
   img: /assets/img/dashboards/sphereriskscores.webp
   categories: Defi
 - name: Ethereum Apps
@@ -274,9 +299,9 @@
   img: /assets/img/dashboards/ethereumapps.webp
   recommended: true
   categories: Directory
-- name: Aave Analytics
-  link: https://aave.tokenlogic.xyz/treasury
-  description: Aave protocol analytics and insights.
+- name: Aave Data Hub
+  link: https://aave.tokenlogic.xyz/
+  description: Real-time onchain analytics and insights across the Aave ecosystem.
   img: /assets/img/dashboards/aaveanalytics.webp
   categories: Project Specific, Defi
 - name: Gas Limit Live Feed
@@ -301,7 +326,7 @@
   categories: Staking
 - name: DeFi Scan
   link: https://www.defiscan.info/
-  description: Transparency reviews of DeFi protocols to assess their decentralization progress and centralization risks.
+  description: Transparency reviews of defi protocols to assess their decentralization progress and centralization risks.
   img: /assets/img/dashboards/defiscan.webp
   categories: Defi, Security & Privacy
 - name: Stablewatch
@@ -480,7 +505,7 @@
   link: https://bolder.cash/
   description: Data on the Liquity Bold stablecoin and related forks.
   img: /assets/img/dashboards/boldercash.webp
-  categories: Project Specific, Staking, Defi
+  categories: Project Specific, Defi
 - name: Open Source Observer
   link: https://www.opensource.observer/
   description: A free analytics suite that helps funders measure the impact of open source software contributions to the health of their ecosystem.
@@ -658,7 +683,7 @@
   recommended: true
 - name: DeFi Toolkit
   link: https://hackmd.io/@gweicz/defi-toolkit
-  description: Curated list of best tools and resources for user of Ethereum (DeFi) ecosystem.
+  description: Curated list of best tools and resources for user of Ethereum defi ecosystem.
   img: /assets/img/dashboards/defitoolkit.webp
   categories: Defi
 - name: Stablecoins.wtf
@@ -678,7 +703,7 @@
   categories: MEV, Block Production, Censorship
 - name: EigenPhi
   link: https://eigenphi.io/
-  description: EigenPhi is a full-scale DeFi in-depth data platform for everyday DeFi users, Crypto traders & arbitragers.
+  description: EigenPhi is a full-scale defi in-depth data platform for everyday defi users, Crypto traders & arbitragers.
   img: /assets/img/dashboards/eigenphi.webp
   categories: MEV, Block Production
 - name: Inclusion Watch
@@ -789,7 +814,7 @@
   categories: MEV, Block Production
 - name: Vaults.fyi
   link: https://www.vaults.fyi/vaults
-  description: Find the best onchain yield across DeFi platforms. Best APY crypto.
+  description: Find the best onchain yield across defi platforms. Best APY crypto.
   img: /assets/img/dashboards/vaultsfyi.webp
   categories: Defi
 - name: Money Movers
@@ -819,7 +844,7 @@
   categories: Staking
 - name: Nansen
   link: https://app.nansen.ai/
-  description: Maximize your crypto, DeFi, and NFT returns with Nansen's real-time analytics tools. Get onchain insights and data to power your investment decisions.
+  description: Maximize your crypto, defi, and NFT returns with Nansen's real-time analytics tools. Get onchain insights and data to power your investment decisions.
   img: /assets/img/dashboards/nansen.webp
   categories: Defi
 - name: Ulisse Network Topology
