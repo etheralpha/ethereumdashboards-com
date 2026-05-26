@@ -18,6 +18,11 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: EVM Compiler Bench
+  link: https://evm.banteg.xyz/
+  description: A head-to-head benchmark of EVM compiler profiles across Solidity and Vyper.
+  img: /assets/img/dashboards/bantegevm.webp
+  categories: Dev
 - name: RDL.fi
   link: https://rld.fi/data
   description: Ethereum lending dashboard to monitor 6 protocols and 1336 markets.
@@ -44,7 +49,7 @@
   img: /assets/img/dashboards/rocketperformance.webp
   categories: Project Specific, Staking
 - name: Staking Draft Roadmap
-  link: https://strakemap.org/
+  link: https://stakemap.org/
   description: A work-in-progress draft Ethereum roadmap limited to a focus on staking related items.
   img: /assets/img/dashboards/stakemap.webp
   categories: Protocol, Staking
@@ -90,7 +95,7 @@
   categories: Network Health
 - name: Ethereum Gas Tracker
   link: https://www.ethgastracker.com/
-  description: Monitor and track Ethereum and L2 gas prices to reduce transaction fees, save money and take control of your blockchain experience
+  description: Monitor and track Ethereum and L2 gas prices to reduce transaction fees, save money and take control of your blockchain experience.
   img: /assets/img/dashboards/ethgastracker.webp
   categories: Fees
 - name: Crypto Native Jobs
