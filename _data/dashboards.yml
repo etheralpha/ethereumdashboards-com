@@ -18,6 +18,11 @@
 
 # Entries shown in random order
 # Add new entries to the top
+- name: pigi.finance
+  link: https://pigi.finance
+  description: On‑chain indexer and analytics for DeFi vaults (ERC4626 and others).
+  img: /assets/img/dashboards/pigifinance.webp
+  categories: Defi, Explorer
 - name: ETH Security Floor Model
   link: https://www.ethsecurityprice.com/
   description: An independent model estimates the ETH monetary base implied by explicit deterrence and reserve-demand assumptions.
